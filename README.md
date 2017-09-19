@@ -9,7 +9,7 @@ A community-curated list of sites/merchants that accept [Bitcoin Cash - Peer-to-
 
 ## The Goal
 
-The goal is to build a website ([acceptBitcoin.Cash](https://acceptBitcoin.Cash)) with a comprehensive list of sites that accept or support Bitcoin Cash, as well as Bitcoin (Legacy).
+The goal is to build a website ([acceptBitcoin.Cash](http://acceptbitcoin.cash)) with a comprehensive list of sites that accept or support Bitcoin Cash, as well as Bitcoin (Legacy).
 
 Our hope is to connect consumers and merchants, while spreading awareness and promoting global adoption of [Bitcoin Cash (https://www.bitcoincash.org). 
 
