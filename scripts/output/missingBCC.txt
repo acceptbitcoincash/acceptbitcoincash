@@ -1,0 +1,68 @@
+File, Tag
+backup.yml: 
+
+banking.yml: 
+
+cloud.yml: 
+ appFog, Brightbox, Cloud66, cloud.ca, Datapipe, DigitalOcean, EngineYard, fortrabbit, GoogleCloudPlatform, Heroku, Hostiso, Hyper.sh, IBMBlueMix, Joyent, LeaseWeb, Linode, MicrosoftAzure, mLab, OpenShift, Packet, ProfitBricks, Rackspace, RightScale, Scaleway, Scalr, SingleHop, Tilaa, Userify, Vultr,
+communication.yml: 
+ Basecamp, Campfire, CarbonBlackCommunityExchange, Customer.io, Discord, Disqus, Doodle, Fleep, Flowdock, FrontApp, Grape, HipChat, IRCCloud, MailChimp, Mailgun, Maxemail, Peerio, Ryver, Salesforce, SendGrid, Sendloop, Skype(viaMicrosoftAccount), Slack, SocketLabs, SparkPost, Stackfield, TeamSpeak, Telegram, ToutApp, WhatsApp, WoltLab, Yammer,
+cryptocurrencies.yml: 
+
+developer.yml: 
+ Airbrake, Algolia, AppVeyor, aTechMedia, Balsamiq, Bintray, Bitbucket, Bugsnag, Bugzilla@Mozilla, Cedexis, Cloud9, CMTelecom, CodeClimate, Codeanywhere, Codeship, Compose.io, Context.IO, Deploybot, Docker, DominoDataLab, Esri, 'FogBugz&Kiln', GitHub, GitLab, HashicorpAtlas, Infobip, ITGlue, JetBrains, Koding, Launchpad, Looker, Mapbox, Metrological, MongoDBCloudManager, NewRelic, Nexmo, Papertrail, Phacility, Pingdom, PivotalTracker, Plivo, PyPI, PythonAnywhere, Raygun, RBCommons, Rollbar, RubyGems.org, SauceLabs, Semaphore, Sentry, SourceForge, Status.io, StatusCake, StatusPage.io, SumoLogic, Taiga.io, Twilio, Unfuddle, Unity, UptimeRobot, VisualStudioOnline, Zapier,
+domains.yml: 
+ 101domain, 10Dollar, 123Reg, 1and1, Above.com, Cloudflare, ClouDNS, CrazyDomains, Directnic, DNSMadeEasy, DNSimple, DomainMonster, Domain.com, domainFACTORY, Domains4Bitcoins.com, DomainsAtCost, Domeny.tv, Dyn, Dynadot, easyDNS, eNom, EuroDNS, Fabulous, Fasthosts, FreeDNS, Gandi, GoDaddy, GoogleDomains, HeartInternet, Hexonet, Hover.com, HurricaneElectric, Incapsula, Internet.bs, INWX, iWantMyName, Joker.com, Loopia, MarkMonitor, Metaname, Moniker, MyDomain, Name.com, Namecheap, NameSilo.com, NamesPro.ca, NearlyFreeSpeech.net, Netfirms, Netim, Netregistry, NetworkSolutions, No-IP, Nominet, NS1, Openprovider, OpenSRS, pairNIC, PointDNS, porkbun, Register4Less, Registro.br, STRATO, UK2, Uniregistry, united-domainsReselling, Verio,
+education.yml: 
+ AAI@EduHr, AcademicEarth, Antagning.se, CBTNuggets, CertifiedWirelessNetworkProfessional(CWNP), ClemsonUniversity, Clever, CodeSchool, Codecademy, CollegeOfDuPage, CompTIA, Coursera, CSN, Duolingo, EC-Council, Edmodo, edX, GeorgiaInstituteofTechnology, GlobalInformationAssuranceCertification(GIAC), HackerRank, HarvardUniversity, IllinoisInstituteOfTechnology, ISACA, MontclairStateUniversity, MyStudyLife, PushCoin, RobertMorrisUniversity, RoyalRoadsUniversity, SchoolSoft, TempleUniversity, Udacity, Udemy, UniversityofMichigan, VirginiaCommonwealthUniversity, VirginiaTech,
+email.yml: 
+ CheckMail, FastMail, Freenet, Gmail, GMX, Hushmail, Mail.com, mail.de, Mail.Ru, mailbox.org, Mailfence, Migadu, MXroute, Outlook.com, Pobox, Posteo, ProtonMail, RiseupMail, Runbox, T-Online, Thexyz, Web.de, YahooJapanMail, YahooMail, Yandex.Mail, Zimbra, ZohoMail,
+entertainment.yml: 
+ CDBaby, Crunchyroll, GooglePlay, Hulu, IBMCloudVideo(Ustream), IMDb, Last.fm, Mixer, Netflix, Pandora, Picarto.TV, Plex, Qobuz, Roku, SlingTV, smashcast, SoundCloud, Spotify, TIDAL, TiVo, Twitch, Vidme, Vimeo, YouTube,
+examples.yml: 
+ NOTacceptinganycrypto(needatleastTwitter/Facebookhandle,ore-mail), NOTacceptinganycrypto(e-mail), AcceptingBitcoinONLY,
+finance.yml: 
+ ADP, Baden-WürttembergischeBank, Bitbond, ClearScore, CreditKarma, ditech, FreeAgent, FreshBooks, Geico, Gusto, HargreavesLansdown, HelloWallet, InExFinance, IntuitTurboTax, Invoiced, Justworks, Kiva, Kualto, LevelUp, Mint, Nexonia, Noddle, NorthwesternMutual, Paychex, Paycor, Paytrust, Pocketsmith, Popmoney, President'sChoiceFinancial, Progressive, QuickbooksOnline, QuickFile, Quizzle, Shoeboxed, SimpleTax, Taxact, TransferWise, TreasuryDirect, Valic, Vitality, WaveApps, Xero, YodleeMoneycenter, YouNeedABudget(YNAB),
+food.yml: 
+
+gaming.yml: 
+ BlackDesertOnline, 'Blade&Soul', Blizzard, Curse, Desura, ElderScrollsOnline, Enjin, EpicGames, EVEOnline, FaceIT, GameFly, GarenaOnline, GeForce(Nvidia), GOG.com, GREE, GuildWars2, HumbleBundle, IndieGala, itch.io, LeagueofLegends, Mojang, NintendoNetwork, Origin, PlaystationNetwork, RobertsSpaceIndustries, RockstarGamesSocialClub, RuneScape, SquareEnix, "StarWars:TheOldRepublic", StardockCorporation, Steam, Tibia, TrionWorlds, Uplay, Wargaming, WildStar, XboxLive, YoYoGames,
+government.yml: 
+ Healthcare.gov, HMRC, myGov, RealMe, Skatteverket, UKCompaniesHouse, USInternalRevenueService, USSocialSecurityAdministration,
+health.yml: 
+ CarilionClinic, CVSCaremark, drchrono, Drugs.com, ElationHealth, FitBit, FollowMyHealth, GoogleFit, HealthVault(w/MicrosoftAccount), HintHealth, MedicAlert, Misfit, myfitnesspal, NokiaHealth(Withings), Runtastic, Thriva, WebMD,
+hosting.yml: 
+ ARPNetworks, BinaryLane, Binero, Bluehost, CDNsun, ChunkHost, CloudAtCost, Cloudways, cyon, dediserve, Dreamhost, Easy, Fastly, FSData, Glesys, Globat, HetznerOnline, HostHatch, ICUK, Infomaniak, INIZ, Inleed, InMotionHosting, IOZoom, iPage, Kinsta, LCN.com, LiquidWeb, MammothNetworks, MaxCDN, MediaTemple, MissHosting, Mittwald, NearlyFreeSpeech.NET, Netcup, Nitrado, Noez, Oderland, One.com, Online, OVH, PlanetHoster, Rackspace, RamNode, Site5, Softlayer, SpeedITSolutions, Squarespace, Time4VPS, TransIP, UKFast, Ukraine, UpCloud, Versio, VPSServer, Vultr, WebFaction, Wedos, Weebly, WPEngine,
+identity.yml: 
+ Bitium, bitwarden, Centrify, Dashlane, ID.me, Keeper, Keybase, LastPass, MyDigipass.com, Okta, OneLogin, Passpack, RoboForm, SAASPASS, SecureSafe, TrueKey,
+investing.yml: 
+ AmericanFunds, Betterment, CharlesSchwab, COLFinancial, E*Trade, FidelityInvestments, HealthEquity, InteractiveBrokers, Manulife, MerrillEdge, MotifInvesting, Nutmeg, OptionsHouse, OptionsXpress, PersonalCapital, Questrade, Raizers, RBCDirectInvesting, Robinhood, Scottrade, Sharebuilder, SigFig, TDAmeritrade, TDWaterhouse, TIAA-CREF, TradeKing, Vanguard, Wealthfront, Wealthsimple, WiseBanyan,
+iot.yml: 
+ Nest, Noke, SamsungSmartThings, Solar.web, Tesla, TotalConnectComfort,
+languages.yml: 
+
+legal.yml: 
+
+other.yml: 
+ AerohiveNetworks, Airbnb, Airtable, AngelList, AustraliaPost, Autodesk, Automater, AwardWallet, BasisCodeCompliance, Boxcryptor, BuiltWith, CATechnologies, CiscoMeraki, Clio, Cloudinary, CommuterBenefits, Cosmolex, CrowdSupply, Delicious, Delighted, DirectAdmin, DoorDash, Dreamstime, Envato, Everlaw, Figma, Findmyshift, Formstack, IEEE, IFTTT, ImmobilienScout24, Indeed, karriere.at, Kayako, Kickstarter, Liftopia, Mixpanel, Monster, Office365, Onshape, Pastebin, Patreon, PhraseApp, Pinboard, PlanningCenterOnline, Pocket, Pozible, Promoter.io, Repairshopr, SignNow, StartJOIN, Ulule, Upwork, Usabilla, WageWorks, WatchmanMonitoring, Webmin, Wikia, Wikipedia, Yclas, Zendesk,
+payments.yml: 
+ Braintree, Buycraft, Dwolla, Flattr, GoCardless, GoogleWallet, Klarna, NETELLER, Payoneer, PayPal, Paysafecard, Privacy, Ravelin, Skrill, Square, SquareCash, Stripe, Vantiv, Venmo, VisaCheckout, Yandex.Money,
+remote.yml: 
+ ConnectWiseControl(ScreenConnect), join.me(w/LogMeInaccount), LogMeIn, MBConnectLine, O&;OSyspectr, TeamViewer,
+retail.yml: 
+ AdoramaPix, AliExpress, Amazon, Apple, BigW, CombatantGentlemen, Comixology, Costco, Dell, DigitalWorldInternational, EBGamesAustralia, eBay, Etsy, Everlane, FastTech, Flipkart, GamersGate, Gilt, Groupon, HomeDepot, Hudson'sBay, Hypop, IKEA, JBHi-Fi, Jet, Kohl's, Lazada, Lowes, Macy's, Massdrop, MercadoLibre, Newegg, Nordstrom, NorthernTool+Equipment, Overstock, PCCaseGear, Purse, Rakuten, Samsung, SierraTradingPost, StackSocial, Target, Walgreens, Walmart, WarbyParker, Wayfair, Zappos, Zazzle,
+sections.yml: 
+
+security.yml: 
+ Blur, BolehVPN, CAcert, Cobalt, CyberGhost, Detectify, DigiCert, Dome9Security, Entrust, GeoTrust, GoGetSSL, hide.meVPN, Norton, OpenDNS, Prey, PrivateInternetAccess, PwnieExpressPwnPulse, RBLTracker, SSLTrust, ThreatConnect, ThreatMetrix, ThreatSim, TinfoilSecurity, TorGuard, TunnelBear, VPNUnlimited, Webroot, Windscribe,
+social.yml: 
+ Badoo, Bitly, Buffer, DeviantArt, Ello, Facebook, Flipboard, Foursquare, Goodreads, Google+, HootSuite, ICQ, Imgur, Instagram, LinkedIn, LiveJournal, Lobsters, Medium, Meetup, Minds, Newgrounds, Nextdoor, OkCupid, Pinterest, Quora, Reddit, Snapchat, StackExchange, Tumblr, Twitter, VanillaForums.com, Viadeo, VK, Weibo, WordPress.com, XING, Zocle,
+task.yml: 
+ Any.do, Asana, Azendoo, fruux, Todoist, Toodledo, Trello, Wunderlist,
+transport.yml: 
+ AirFrance, AlaskaAirlines, AmericanAirlines, Amtrak, BritishAirways, CaptainTrain, Clipper, Delta, DeutscheBahn(DB), easyJet, Frontier, Greyhound, HawaiianAirlines, JetBlue, JetSmarter, Lufthansa, Lyft, mytaxi, Norwegian, NSB, OV-chipkaart, Ryanair, SAS, ScotRail, SJ, SL, SmarTrip, Southwest, Spirit, TransportforLondon, Uber, United, Voyages-SNCF, WestJet,
+utilities.yml: 
+ Andrews&;Arnold, AT&;T, CallCentric, CenturyLink, CharterSpectrum, Comcast, ConEdison, Cox, DIRECTV, DISHNetwork, DominionEnergy, DTEEnergy, DukeEnergy, EE, Eversource, FloridaPowerandLight, Frontier, GeorgiaPower, GoogleFiber, Halebop, MojTele2, Optus, Orange, PacificGasandElectricCompanyPG&;E, PowerStream, ProjectFi, RCN, 'RochesterGas&Electric', Rogers, 'SanDiegoGas&Electric', Sonic, SouthernCaliforniaEdison, Sprint, T-Mobile, Telia(Sweden), Telstra, Telzio, ThreeUK, TimeWarnerCable, Ting, Verizon, VerizonWireless, Vimla, VirginMedia(IE), VirginMedia(UK), VirginMobile, Vodafone(IE), Vodafone(IT), Vodafone(UK), VoIP.ms,
+
+32 files have entries missing the bcc tag 
+790 entries are missing the bcc tag 
