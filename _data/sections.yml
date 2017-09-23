@@ -18,8 +18,8 @@
   title: Communication
   icon: chat
 
-- id: cryptocurrencies
-  title: Cryptocurrencies
+- id: cryptoservices
+  title: Crypto Services
   icon: bitcoin
 
 - id: developer
