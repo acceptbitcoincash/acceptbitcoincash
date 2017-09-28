@@ -20,5 +20,6 @@ exclude:
     - verify.rb
     - vendor
     - kube
+    - nginx.conf
 
 theme: jekyll-theme-hacker
