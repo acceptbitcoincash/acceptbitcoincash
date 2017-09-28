@@ -19,5 +19,6 @@ exclude:
     - Rakefile
     - verify.rb
     - vendor
+    - kube
 
 theme: jekyll-theme-hacker
