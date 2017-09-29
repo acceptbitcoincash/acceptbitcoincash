@@ -206,9 +206,14 @@ try:
 except Exception as e:
 	pass
 
-output = codecs.open(os.path.join(outputPath,"missingImg_log.csv"), "a", "utf-8")
+outputFile = os.path.join(outputPath, "missingImg_log.csv")
+if os.path.isfile(outputFile):
+    output = codecs.open(outputFile, "a", "utf-8")
+else:
+    output = codecs.open(outputFile, "w+", "utf-8")
+    output.write("Timestamp,Total Failed Paths,Total Missing Entries\n")
 
-output.write(str(timestamp) + ", " + str(failedPaths) + ", " + str(missingEntries) + "\n")
+output.write(str(timestamp) + "," + str(failedPaths) + "," + str(missingEntries) + "\n")
 
 output.close()
 
