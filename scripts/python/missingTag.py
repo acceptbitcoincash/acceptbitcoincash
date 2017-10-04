@@ -135,7 +135,7 @@ def countFile(dir, filename):
             tagEntryDic[tag] = intEntries
             #global tagEntryDic
             #tagEntryDic[tag] = tagMissingEntries
-            print("inner missing entries " + str(tagEntryDic[tag]) + " total missing entries " + str(missingEntries))
+            #print("inner missing entries " + str(tagEntryDic[tag]) + " total missing entries " + str(missingEntries))
             file.close()
 for file in filename:
     #print("Testing path: " + path)
@@ -164,6 +164,10 @@ output.close()
 
 output = codecs.open(os.path.join(".","output","missingEntries.txt"), "w+", "utf-8")
 
+print("Missing tags report")
+print("Searching for these tags: " + str(tagList))
+output.write("Missing tags report \n")
+output.write("Searching for these tags: " + str(tagList))
 
 for tag, list in tagLogDic.items():
     print(list)
@@ -186,10 +190,10 @@ for tag in tagEntryDic.items():
     print(str(number) + " entries missing " + str(tagString) + "\n")
     output.write(str(number) + " entries missing " + str(tagString) + "\n")
 
-print(str(failedPaths) + " files have entries missing the bcc tag")
+print(str(failedPaths) + " files have entries missing tag entries")
 output.write(str(failedPaths) + " files have entries missing the bcc tag \n")
 
-print(str(missingEntries) + " entries are missing the bcc tag")
+print(str(missingEntries) + " entries are missing the tag entries")
 output.write(str(missingEntries) + " entries are missing the bcc tag \n")
 
 output.close()
