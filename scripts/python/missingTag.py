@@ -12,7 +12,9 @@ totalTag = 0
 missingList = []
 failedPaths = 0
 missingEntries = 0
-logString = ""
+
+seperator = "////////////////////////////////////////////////////"
+#logString = ""
 
 index = 0
 
@@ -67,8 +69,12 @@ def countFile(dir, filename):
                 #global missingList
                 #missingList = []
                 #missingList.append("\n" + filename + ": " + tag + "\n File, Name \n")
-                global logString
-                logString ="\n\n" + filename + ": " + tag + "\n File, Name \n"
+
+                #global logString
+                #logString = "\n\n" + filename + ": " + tag + "\n File, Name \n"
+                logString = ""
+                logHead = "\n\n" + seperator + "\n" + filename + ": " + tag + "\nFile, Name\n----------------------------------------------------\n"
+                
                 #print(missingList)
 
                 tagFailedPaths = 0
@@ -89,7 +95,7 @@ def countFile(dir, filename):
                             nameLine = nameLine.replace(" ", "")
                             nameLine = nameLine.replace("&amp", "&")
                             #missingList[index] = missingList[index] + " " + nameLine + ","
-                            logString = logString + " " + nameLine + ","
+                            logString = logString + "" + nameLine + ", "
                             #print("logstring: " + logString)
                             global missingEntries
                             missingEntries += 1
@@ -111,9 +117,12 @@ def countFile(dir, filename):
                     tempString = tagLogDic[tag]
                 except Exception as e:
                     pass
-                tempString = tempString + logString
+                if logString:
+                    tempString = tempString + logHead + logString
 
                 tagLogDic[tag] = tempString
+
+
             
                 intPath = 0
                 global tagPathDic
@@ -163,7 +172,7 @@ output.close()
 
 output = codecs.open(os.path.join(".","output","missingEntries.txt"), "w+", "utf-8")
 
-print("Missing tags report")
+print("\nMissing tags report")
 print("Searching for these tags: " + str(tagList))
 output.write("Missing tags report \n")
 output.write("Searching for these tags: " + str(tagList))
