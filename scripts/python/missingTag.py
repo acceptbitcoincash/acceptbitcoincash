@@ -23,8 +23,8 @@ filename = os.listdir(dirPath)
 ignorePath = os.path.join("resources", "tagIgnore.csv")
 tagPath = os.path.join("resources", "tagList.csv")
 
-#exceptionsFile = codecs.open(ignorePath, 'r', "utf-8")
-#exceptionList = exceptionsFile.read().split(",")
+exceptionsFile = codecs.open(ignorePath, 'r', "utf-8")
+exceptionList = exceptionsFile.read().split(",")
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-t","--tags",help="Add tags to generate a report on missing tags", nargs='*')
@@ -52,91 +52,90 @@ else:
 def countFile(dir, filename):
     path = os.path.join(dir, filename)
     #print("Testing site: " + path)
-    if ".yml" in path:
-        
-        
-        for tag in tagList:
-            #print("PROCESSING: " + tag + " for " +filename)
-            file = codecs.open(path, 'r', "utf-8")
-            processed = True
-            prevName = ''
+    if filename not in exceptionList:
+        if ".yml" in path:
+            for tag in tagList:
+                #print("PROCESSING: " + tag + " for " +filename)
+                file = codecs.open(path, 'r', "utf-8")
+                processed = True
+                prevName = ''
 
-            pathFail = False
-            #global index
-            index = 0
+                pathFail = False
+                #global index
+                index = 0
 
-            #global missingList
-            #missingList = []
-            #missingList.append("\n" + filename + ": " + tag + "\n File, Name \n")
-            global logString
-            logString ="\n\n" + filename + ": " + tag + "\n File, Name \n"
-            #print(missingList)
+                #global missingList
+                #missingList = []
+                #missingList.append("\n" + filename + ": " + tag + "\n File, Name \n")
+                global logString
+                logString ="\n\n" + filename + ": " + tag + "\n File, Name \n"
+                #print(missingList)
 
-            tagFailedPaths = 0
-            tagMissingEntries = 0
-            tagString = tag + ": "
-            for line in file:
-                #print(line)
-                #print("testing tag: " + tag + " in loop")
-                if "- name:" in line:
-                    global totalSites
-                    totalSites+= 1
-                    #check if the previous file has been processed, this accounts for if the BTC support tag does not exist
-                    if processed == False:
+                tagFailedPaths = 0
+                tagMissingEntries = 0
+                tagString = tag + ": "
+                for line in file:
+                    #print(line)
+                    #print("testing tag: " + tag + " in loop")
+                    if "- name:" in line:
+                        global totalSites
+                        totalSites+= 1
+                        #check if the previous file has been processed, this accounts for if the BTC support tag does not exist
+                        if processed == False:
                     
-                        nameLine = line.replace("- name:", "")
-                        nameLine = nameLine.replace("\n", "")
-                        nameLine = nameLine.replace("\r", "")
-                        nameLine = nameLine.replace(" ", "")
-                        nameLine = nameLine.replace("&amp", "&")
-                        #missingList[index] = missingList[index] + " " + nameLine + ","
-                        logString = logString + " " + nameLine + ","
-                        #print("logstring: " + logString)
-                        global missingEntries
-                        missingEntries += 1
-                        tagMissingEntries += 1
-                        if pathFail == False:
-                            pathFail = True
-                            global failedPaths
-                            failedPaths += 1
-                            tagFailedPaths += 1
-                    processed = False
+                            nameLine = line.replace("- name:", "")
+                            nameLine = nameLine.replace("\n", "")
+                            nameLine = nameLine.replace("\r", "")
+                            nameLine = nameLine.replace(" ", "")
+                            nameLine = nameLine.replace("&amp", "&")
+                            #missingList[index] = missingList[index] + " " + nameLine + ","
+                            logString = logString + " " + nameLine + ","
+                            #print("logstring: " + logString)
+                            global missingEntries
+                            missingEntries += 1
+                            tagMissingEntries += 1
+                            if pathFail == False:
+                                pathFail = True
+                                global failedPaths
+                                failedPaths += 1
+                                tagFailedPaths += 1
+                        processed = False
 
-                if tagString in line:
-                    processed = True
-                index += 1
+                    if tagString in line:
+                        processed = True
+                    index += 1
 
-            tempString = ""
-            global tagLogDic
-            try:
-                tempString = tagLogDic[tag]
-            except Exception as e:
-                pass
-            tempString = tempString + logString
+                tempString = ""
+                global tagLogDic
+                try:
+                    tempString = tagLogDic[tag]
+                except Exception as e:
+                    pass
+                tempString = tempString + logString
 
-            tagLogDic[tag] = tempString
+                tagLogDic[tag] = tempString
             
-            intPath = 0
-            global tagPathDic
-            try:
-                intPath = tagPathDic[tag]
-            except Exception as e:
-                pass
-            intPath = intPath + tagFailedPaths
-            tagPathDic[tag] = intPath
+                intPath = 0
+                global tagPathDic
+                try:
+                    intPath = tagPathDic[tag]
+                except Exception as e:
+                    pass
+                intPath = intPath + tagFailedPaths
+                tagPathDic[tag] = intPath
 
-            intEntries = 0
-            global tagEntryDic
-            try:
-                intEntries = tagEntryDic[tag]
-            except Exception as e:
-                pass
-            intEntries = intEntries + tagMissingEntries
-            tagEntryDic[tag] = intEntries
-            #global tagEntryDic
-            #tagEntryDic[tag] = tagMissingEntries
-            #print("inner missing entries " + str(tagEntryDic[tag]) + " total missing entries " + str(missingEntries))
-            file.close()
+                intEntries = 0
+                global tagEntryDic
+                try:
+                    intEntries = tagEntryDic[tag]
+                except Exception as e:
+                    pass
+                intEntries = intEntries + tagMissingEntries
+                tagEntryDic[tag] = intEntries
+                #global tagEntryDic
+                #tagEntryDic[tag] = tagMissingEntries
+                #print("inner missing entries " + str(tagEntryDic[tag]) + " total missing entries " + str(missingEntries))
+                file.close()
 for file in filename:
     #print("Testing path: " + path)
     countFile(dirPath, file)
