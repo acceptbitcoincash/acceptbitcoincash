@@ -174,8 +174,10 @@ output = codecs.open(os.path.join(".","output","missingEntries.txt"), "w+", "utf
 
 print("\nMissing tags report")
 print("Searching for these tags: " + str(tagList))
+print("Ignoring these files: " + str(exceptionList))
 output.write("Missing tags report \n")
-output.write("Searching for these tags: " + str(tagList))
+output.write("Searching for these tags: " + str(tagList) + "\n")
+output.write("Ignoring these files: " + str(exceptionList))
 
 for tag, list in tagLogDic.items():
     print(list)
