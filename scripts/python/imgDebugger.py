@@ -22,6 +22,12 @@ dirPath = os.path.join("..","..","_data")
 #imgBaseDir = "../../img"
 imgBaseDir = os.path.join("..","..","img")
 
+ignorePath = os.path.join("resources", "tagIgnore.csv")
+tagPath = os.path.join("resources", "tagList.csv")
+
+exceptionsFile = codecs.open(ignorePath, 'r', "utf-8")
+exceptionList = exceptionsFile.read().split(",")
+
 filename = os.listdir(dirPath)
 imgBase = os.listdir(imgBaseDir)
 
@@ -100,102 +106,104 @@ def findImg(image, fileTitle, index, logMessage):
 def countFile(dir, filename):
     path = os.path.join(dir, filename)
     #print("Testing site: " + path)
-    if ".yml" in path:
-        file = codecs.open(path, 'r', "utf-8")
-        processed = True
-        prevName = ''
+    if filename not in exceptionList:
+        if ".yml" in path:
+            file = codecs.open(path, 'r', "utf-8")
+            processed = True
+            prevName = ''
 
-        pathFail = False
-        global index
+            pathFail = False
+            global index
 
-        global missingList
-        missingList.append("\n======================================================================================= \n" + filename + ": \n======================================================================================= \n")
-        brokenPathList.append("\n======================================================================================= \n" + filename + ": \n======================================================================================= \n")
-        for line in file:
-            #print(line)
+            global missingList
+            missingList.append("\n======================================================================================= \n" + filename + ": \n======================================================================================= \n")
+            brokenPathList.append("\n======================================================================================= \n" + filename + ": \n======================================================================================= \n")
+            for line in file:
+                #print(line)
 
-            if "- name:" in line:
-                global totalSites
-                totalSites+= 1
+                if "- name:" in line:
+                    global totalSites
+                    totalSites+= 1
                     
-                nameLine = line.replace("- name:", "")
-                nameLine = nameLine.replace("\n", "")
-                nameLine = nameLine.replace("\r", "")
-                nameLine = nameLine.replace(" ", "")
-                nameLine = nameLine.replace("&amp", "&")
-                #check if the previous file has been processed, this accounts for if the BTC support tag does not exist
-                if processed == False:
+                    nameLine = line.replace("- name:", "")
+                    nameLine = nameLine.replace("\n", "")
+                    nameLine = nameLine.replace("\r", "")
+                    nameLine = nameLine.replace(" ", "")
+                    nameLine = nameLine.replace("&amp", "&")
+                    #check if the previous file has been processed, this accounts for if the BTC support tag does not exist
+                    if processed == False:
                     
-                    missingList[index] = missingList[index] + " " + nameLine + ","
-                    global missingEntries
-                    missingEntries += 1
-                    if pathFail == False:
-                        pathFail = True
-                        global failedPaths
-                        failedPaths += 1
-                processed = False
+                        missingList[index] = missingList[index] + " " + nameLine + ","
+                        global missingEntries
+                        missingEntries += 1
+                        if pathFail == False:
+                            pathFail = True
+                            global failedPaths
+                            failedPaths += 1
+                    processed = False
 
-            if "img: " in line:
-                if "png" in line or "jpg" in line or "bmp" in line or "gif" in line:
-                    imgLine = line.replace("img:", "")
-                    imgLine = imgLine.replace("\n", "")
-                    imgLine = imgLine.replace("\r", "")
-                    imgLine = imgLine.replace(" ", "")
-                    #print(imgLine)
-                    logMessage = brokenPathList[index] + " " + nameLine + ", " + imgLine + " | "
-                    #build path
-                    fileTitle = filename.replace(".yml", "")
-                    subPath = os.path.join(imgBaseDir, fileTitle)
-                    if fileTitle in imgBase:
-                        subImgList = os.listdir(subPath)
-                        if imgLine in subImgList:
-                            pass
-                        else:
-                            #look for file location here
-                            if fileTitle in imgList:
-                                #move file to appropriate directory here
-                                #location to move to
-                                destPath = os.path.join(imgBaseDir, fileTitle)
-                                srcImg = os.path.join(imgBaseDir, imgLine)
-                                if os.path.isfile(srcImg):
-                                    #move
-                                    try:
-                                        shutil.move(srcImg, destPath)
-                                        #print("moved " + srcImg + " to " + destPath)
-                                        movedImages.append(imgLine + ", " + fileTitle + " | Moved: " + srcImg + " to " + destPath)
-                                    except Exception as e:
-                                        brokenPathList[index] + " " + nameLine + ", " + imgLine + " | "
-                                else:
-                                    #scan other directories for the file, just to make sure it's not in the wrong directory
-                                    findImg(imgLine, fileTitle, index, logMessage)
+                if "img: " in line:
+                    if "png" in line or "jpg" in line or "bmp" in line or "gif" in line:
+                        imgLine = line.replace("img:", "")
+                        imgLine = imgLine.replace("\n", "")
+                        imgLine = imgLine.replace("\r", "")
+                        imgLine = imgLine.replace(" ", "")
+                        #print(imgLine)
+                        logMessage = brokenPathList[index] + " " + nameLine + ", " + imgLine + " | "
+                        #build path
+                        fileTitle = filename.replace(".yml", "")
+                        subPath = os.path.join(imgBaseDir, fileTitle)
+                        if fileTitle in imgBase:
+                            subImgList = os.listdir(subPath)
+                            if imgLine in subImgList:
+                                pass
                             else:
-                                #create directory
-                                destPath = os.path.join(imgBaseDir, fileTitle)
-                                os.mkdir(destPath)
-                                #scan other directories for the file, just to make sure it's not in the wrong directory and move
-                                findImg(imgLine, fileTitle, index, logMessage)
+                                #look for file location here
+                                if fileTitle in imgList:
+                                    #move file to appropriate directory here
+                                    #location to move to
+                                    destPath = os.path.join(imgBaseDir, fileTitle)
+                                    srcImg = os.path.join(imgBaseDir, imgLine)
+                                    if os.path.isfile(srcImg):
+                                        #move
+                                        try:
+                                            shutil.move(srcImg, destPath)
+                                            #print("moved " + srcImg + " to " + destPath)
+                                            movedImages.append(imgLine + ", " + fileTitle + " | Moved: " + srcImg + " to " + destPath)
+                                        except Exception as e:
+                                            brokenPathList[index] + " " + nameLine + ", " + imgLine + " | "
+                                    else:
+                                        #scan other directories for the file, just to make sure it's not in the wrong directory
+                                        findImg(imgLine, fileTitle, index, logMessage)
+                                else:
+                                    #create directory
+                                    destPath = os.path.join(imgBaseDir, fileTitle)
+                                    os.mkdir(destPath)
+                                    #scan other directories for the file, just to make sure it's not in the wrong directory and move
+                                    findImg(imgLine, fileTitle, index, logMessage)
                         
-                    else:
-                        try:
-                            os.mkdir(subPath)
-                        except Exception as e:
-                            pass
-                    dirList = os.listdir(subPath)
-                processed = True
-        index += 1
+                        else:
+                            try:
+                                os.mkdir(subPath)
+                            except Exception as e:
+                                pass
+                        dirList = os.listdir(subPath)
+                    processed = True
+            index += 1
 
 for file in filename:
-    fileTitle = file.replace(".yml", "")
-    path = os.path.join(imgBaseDir, fileTitle)
-    try:
-        os.mkdir(path)
-        createdDir.append(path)
-        scanDir()
-    except Exception as e:
-        pass
-    #print("Testing path: " + path)
+    if file not in exceptionList:
+        fileTitle = file.replace(".yml", "")
+        path = os.path.join(imgBaseDir, fileTitle)
+        try:
+            os.mkdir(path)
+            createdDir.append(path)
+            scanDir()
+        except Exception as e:
+            pass
+        #print("Testing path: " + path)
     
-    countFile(dirPath, file)
+        countFile(dirPath, file)
 
 #create log
 timestamp = datetime.datetime.utcnow()

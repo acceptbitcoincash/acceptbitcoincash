@@ -223,3 +223,23 @@ website. There are 4 ways to customize how it is displayed:
   bcc: No
   status: <url to documentation>
   ```
+
+### Debugging/Stat Scripts###
+
+The project has a few scripts which generate statistics, search for entries with missing tags and fix the project directory structure under the ./scripts/python folder.
+
+Currently the project has 4 different scripts:
+
+**bccAccepted.py**
+- This script generates the count_support.html file under the /_includes folder. The script also creates a csv log located in the ./scripts/python/output directory which the script will create if it does not exist.
+
+**missingBCC.py**
+ - This script looks for entries missing the BCC tag and generates a text report and a csv log in the ./scripts/python/output directory.
+
+**missingTag.py**
+ - This script looks for entries missing any tags and generates a text report and a csv log in the ./scripts/python/output directory.
+This script also supports the optional command line argument --tags or -t which allows the user to search for individual missing tags.
+
+**imgDebugger.py**
+ - The image debugger is designed to assist in or solve issues with the image folder. It has a detects missing tags, detects broken paths, organizes all images into their respective directories, deletes extra directories, moves images into their correct directories and logs everything under the correct directory.
+
