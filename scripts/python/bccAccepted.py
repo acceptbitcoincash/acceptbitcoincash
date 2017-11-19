@@ -11,10 +11,15 @@ index = 1
 dirPath = os.path.join("..","..","_data")
 filename = os.listdir(dirPath)
 
+ignorePath = os.path.join("resources", "tagIgnore.csv")
+
+exceptionsFile = codecs.open(ignorePath, 'r', "utf-8")
+exceptionList = exceptionsFile.read().split(",")
+
 def countFile(dir, filename):
     path = os.path.join(dir, filename)
     #print("Testing site: " + path)
-    if ".yml" in path:
+    if ".yml" in path and filename not in exceptionList:
         file = codecs.open(path, 'r', "utf-8")
         processed = True
 
@@ -33,7 +38,6 @@ def countFile(dir, filename):
                     totalBCC += 1
                 processed = True
         index += 1
-
 
 for file in filename:
     #print("Testing path: " + path)
@@ -54,9 +58,13 @@ try:
 except Exception as e:
 	pass
 
-output = codecs.open(os.path.join(outputPath,"bccAccepted_log.csv"), "a", "utf-8")
-
-output.write(str(timestamp) + ", " + str(totalBCC) + ", " + str(totalSites) + "\n")
+outputFile = os.path.join(outputPath, "bccAccepted_log.csv")
+if os.path.isfile(outputFile):
+    output = codecs.open(outputFile, "a", "utf-8")
+else:
+    output = codecs.open(outputFile, "w+", "utf-8")
+    output.write("Timestamp,Total Failed Paths,Total Missing Entries\n")
+output.write(str(timestamp) + "," + str(totalBCC) + "," + str(totalSites) + "\n")
 
 output.close()
 
