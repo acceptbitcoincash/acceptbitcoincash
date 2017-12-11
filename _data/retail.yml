@@ -1,4 +1,12 @@
 websites:
+    - name: 1stBoards
+      url: http://1stboards.world
+      facebook: https://www.facebook.com/1stboardstaiwan/
+      img: 1stboards.png
+      bcc: yes
+      btc: no
+      othercrypto: no
+
     - name: Adafruit
       url: https://www.adafruit.com
       img: adafruit.png
