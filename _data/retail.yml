@@ -465,6 +465,13 @@ websites:
       img: stacksocial.png
       bcc: No
 
+    - name: StreamWorks
+      url: http://streamworks.com/shop
+      img: streamworks.png
+      bcc: yes
+      btc: yes
+      othercrypto: yes
+
     - name: Sun Kratom
       url: https://sunkratom.com/
       img: sunkratom.png
