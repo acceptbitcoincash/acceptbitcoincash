@@ -81,6 +81,15 @@ websites:
       btc: No
       othercrypto: No
 
+    - name: Blanke Briefhüllen GmbH
+      url: https://www.brief-huellen.de 
+      facebook: BlankeBriefhuellen
+      img: blanke.png
+      bcc: yes
+      btc: no
+      othercrypto: no
+      doc: https://www.facebook.com/BlankeBriefhuellen/photos/a.336327389779607.77672.127883453957336/1513123655433302/
+
     - name: Bokeh Life
       url: https://bokeh.life/
       img: bokehlife.png
@@ -192,6 +201,24 @@ websites:
       facebook: GamersGate
       img: gamersgate.png
       bcc: No
+
+    - name: GearBest
+      url: https://www.gearbest.com/
+      twitter: TheGearbest
+      facebook: gearbest
+      img: gearbest.png
+      bcc: no
+      btc: no
+      othercrypto: no
+
+    - name: Geekvida
+      url: http://www.geekvida.com/
+      twitter: Geekvidacom
+      facebook: geekvida
+      img: geekvida.png
+      bcc: no
+      btc: no
+      othercrypto: no
 
     - name: Gilt
       url: https://www.gilt.com
