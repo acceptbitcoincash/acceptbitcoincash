@@ -52,10 +52,6 @@ jobs:
           branch: master
           tags: true
           condition: $DEPLOY_DOCKER == "true"
-  
-allow_failures:
-  - script: 
-    - bundle exec rake proof_external
 notifications:
   slack:
     rooms:
