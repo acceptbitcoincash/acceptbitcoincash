@@ -11,11 +11,6 @@ cache:
   bundler: true
   directories:
   - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
-stages:
-  - name: Test
-  - name: Housekeeping
-  - name: Deployment
-    if: branch = master
 addons:
   apt:
     packages:
@@ -23,11 +18,9 @@ addons:
     - ca-certificates
 jobs:
   include:
-    - stage: Test
-      script: bundle exec rake
-    - stage: Housekeeping
-      script: bundle exec rake proof_external
-    - stage: Deployment
+    - script: bundle exec rake
+    - script: bundle exec rake proof_external
+    - stage: deploy
       before_install:
       - pip install --user pathlib
       env: 
@@ -55,7 +48,7 @@ jobs:
           tags: true
           condition: $DEPLOY_DOCKER == "true"
   allow_failures:
-    - stage: Housekeeping
+    script: bundle exec rake proof_external
 notifications:
   slack:
     rooms:
