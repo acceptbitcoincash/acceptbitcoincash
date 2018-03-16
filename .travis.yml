@@ -23,8 +23,9 @@ addons:
 jobs:
   include:
     - stage: Test
-      script: bundle exec rake
-    - script: bundle exec rake proof_external
+      script: 
+        - bundle exec rake
+        - bundle exec rake proof_external
     - stage: Deployment
       before_install:
       - pip install --user pathlib
