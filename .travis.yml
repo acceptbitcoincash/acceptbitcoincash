@@ -16,40 +16,44 @@ addons:
     packages:
     - libcurl4-openssl-dev
     - ca-certificates
-matrix:
+job:
   fast_finish: true
   include:
-    - before_install:
+    - script:
+      - bundle exec rake
+    - script:
+      - bundle exec rake proof_external
+    - stage: Deploy Prep
+      before_install:
       - pip install --user pathlib
       env: 
       - NEXT_BUILD_TAG=latest
       script:
-      - bundle exec rake && if [ "$TRAVIS_TAG" != "" ]; then NEXT_BUILD_TAG=`date +"%m-%d-%Y"`; DEPLOY_DOCKER="true"; fi
+      - if [ "$TRAVIS_TAG" != "" ]; then NEXT_BUILD_TAG=`date +"%m-%d-%Y"`; DEPLOY_DOCKER="true"; fi
       - echo ".git" > .dockerignore
       - bundle exec rake docker:build
       - if [ "$NEXT_BUILD_TAG" != "latest" ]; then docker tag acceptbitcoincash/acceptbitcoincash acceptbitcoincash/acceptbitcoincash:"$NEXT_BUILD_TAG"; fi
-    - script:
-      - bundle exec rake proof_external
+      deploy:
+      - provider: pages
+        skip-cleanup: true
+        github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+        keep-history: true
+        on: 
+          branch: master
+          tags: true
+          condition: $DEPLOY_DOCKER == "true"
+      - provider: script
+        skip-cleanup: true
+        script:
+        - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push acceptbitcoincash/acceptbitcoincash
+       on: 
+          branch: master
+          tags: true
+          condition: $DEPLOY_DOCKER == "true"
   allow_failures:
     - script: 
       - bundle exec rake proof_external
-deploy:
-  - provider: pages
-    skip-cleanup: true
-    github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
-    keep-history: true
-    on: 
-      branch: master
-      tags: true
-      condition: $DEPLOY_DOCKER == "true"
-  - provider: script
-    skip-cleanup: true
-    script:
-    - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push acceptbitcoincash/acceptbitcoincash
-    on: 
-      branch: master
-      tags: true
-      condition: $DEPLOY_DOCKER == "true"
+
 notifications:
   slack:
     rooms:
