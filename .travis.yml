@@ -17,7 +17,6 @@ addons:
     - libcurl4-openssl-dev
     - ca-certificates
 jobs:
-  fast_finish: true
   include:
     - script:
       - bundle exec rake
