@@ -11,6 +11,10 @@ cache:
   bundler: true
   directories:
   - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
+stages:
+  - name: Test
+  - name: Deployment
+    if: branch = master
 addons:
   apt:
     packages:
@@ -18,11 +22,9 @@ addons:
     - ca-certificates
 jobs:
   include:
-    - stage: Test Repository
-      script:
-      - bundle exec rake
-    - script:
-      - bundle exec rake proof_external
+    - stage: Test
+      script: bundle exec rake
+    - script: bundle exec rake proof_external
     - stage: Deployment
       before_install:
       - pip install --user pathlib
