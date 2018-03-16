@@ -18,13 +18,11 @@ addons:
     - ca-certificates
 jobs:
   include:
-    - script:
+    - stage: Test Repository
+      script:
       - bundle exec rake
     - script:
       - bundle exec rake proof_external
-    - allow_failures:
-      - script: 
-        - bundle exec rake proof_external
     - stage: Deployment
       before_install:
       - pip install --user pathlib
@@ -53,7 +51,9 @@ jobs:
           tags: true
           condition: $DEPLOY_DOCKER == "true"
   
-
+  allow_failures:
+    - script: 
+      - bundle exec rake proof_external
 notifications:
   slack:
     rooms:
