@@ -16,7 +16,7 @@ addons:
     packages:
     - libcurl4-openssl-dev
     - ca-certificates
-job:
+jobs:
   fast_finish: true
   include:
     - script:
