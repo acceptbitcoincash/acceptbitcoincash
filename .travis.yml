@@ -23,7 +23,7 @@ jobs:
       - bundle exec rake
     - script:
       - bundle exec rake proof_external
-    - stage: Deploy Prep
+    - stage: Deployment
       before_install:
       - pip install --user pathlib
       env: 
