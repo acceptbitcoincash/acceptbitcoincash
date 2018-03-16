@@ -18,8 +18,10 @@ addons:
     - ca-certificates
 jobs:
   include:
-    - script: bundle exec rake
-    - script: bundle exec rake proof_external
+    - stage: test
+      script: bundle exec rake
+    - stage: test
+      script: bundle exec rake proof_external
     - stage: deploy
       before_install:
       - pip install --user pathlib
