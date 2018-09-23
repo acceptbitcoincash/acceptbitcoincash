@@ -269,7 +269,7 @@ websites:
   bch: true
   btc: true
   othercrypto: true
-  doc: https://www.facebook.com/IMedDoHealth/photos/a.319518064904669.1073741830.256288011227675/824360531087084/?type=3&theater
+  doc: https://fb.com/IMedDoHealth/photos/a.319518064904669.1073741830.256288011227675/824360531087084/?type=3&theater
 - name: LensProxy
   url: https://lensproxy.com
   img: lensproxy.png
