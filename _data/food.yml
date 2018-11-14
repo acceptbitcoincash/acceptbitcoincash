@@ -331,7 +331,7 @@ websites:
   bch: true
   btc: true
   othercrypto: false
-- name: Mamas Banh – Vietnamese Culinary Diversity
+- name: Mamas Banh ??Vietnamese Culinary Diversity
   url: http://mamasbanh.com/
   img: mamasbanh.png
   facebook: mamasbanh
@@ -643,3 +643,11 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Tong
+  url: http://tongjerky.com
+  img: Tong.png 
+  twitter: usebitcoincash
+  facebook: test
+  bch: Yes
+  btc: Yes
+  othercrypto: No
