@@ -516,3 +516,11 @@ websites:
   othercrypto: true
   keywords:
   - coinify
+- name: XBL4BTC.com
+  url: https://XBL4BTC.com
+  img: XBLBTCcom.png 
+  bch: Yes
+  btc: Yes
+  othercrypto: Yes
+  twitter: eternalsale
+  email_address: admin@xbl4btc.com
