@@ -602,3 +602,11 @@ websites:
   bch: Yes
   btc: No
   othercrypto: No
+- name: Vanity Cash
+  url: https://vanity.cash
+  img: VanityCash.png
+  bch: Yes
+  btc: No
+  othercrypto: No
+  twitter: coin_dance
+  email_address: david@blockchain.ventures
