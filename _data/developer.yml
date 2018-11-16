@@ -499,7 +499,8 @@ websites:
   othercrypto: Yes
   email_address: starcertificationus@gmail.com
   country: US
-  city: Glendale CA
+  state: CA
+  city: Glendale
 - name: Modoboa
   url: https://modoboa.org/en/
   img: Modoboa.png
