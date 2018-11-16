@@ -90,3 +90,10 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: BitClub Network
+  url: https://bitclub.bz/easybitcoin
+  img: BitClubNetwork.png
+  bch: Yes
+  btc: Yes
+  othercrypto: Yes
+  email_address: easybitcoin@tutanota.com
