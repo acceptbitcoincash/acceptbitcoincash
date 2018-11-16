@@ -491,3 +491,12 @@ websites:
   bch: false
   twitter: zapier
   facebook: ZapierApp
+- name: starcertification
+  url: https://www.starcertification.org/Certifications/Certificate/Ethical-Hacking-Expert
+  img: starcertification.png
+  bch: No
+  btc: No
+  othercrypto: Yes
+  email_address: starcertificationus@gmail.com
+  country: US
+  city: Glendale CA
