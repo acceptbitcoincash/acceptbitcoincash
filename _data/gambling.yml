@@ -373,3 +373,12 @@ websites:
   doc: https://www.winadaycasino.eu/en/bitcoin-cash
   exceptions:
     text: Withdrawals are only done on Wednesdays.
+- name: Bitcoin Casino Affiliates
+  url: https://www.bitcoincasinoaffiliates.com/
+  img: BitcoinCasinoAffiliates.png
+  bch: Yes
+  btc: No
+  othercrypto: Yes
+  twitter: bitcoincasinoa
+  facebook: bitcoincasinoaffiliates
+  email_address: support@bitcoincasinoaffiliates.com
