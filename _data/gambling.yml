@@ -382,6 +382,13 @@ websites:
   twitter: bitcoincasinoa
   facebook: bitcoincasinoaffiliates
   email_address: support@bitcoincasinoaffiliates.com
+- name: 7BitCasino
+  url: https://7bitcasino.com
+  img: 7BitCasino.png
+  bch: Yes
+  btc: Yes
+  othercrypto: Yes
+  email_address: anthony@7bitpartners.com
 - name: Bitsler
   url: https://bitsler.com
   img: Bitsler.png
