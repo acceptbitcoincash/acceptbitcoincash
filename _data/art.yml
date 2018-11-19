@@ -38,6 +38,15 @@ websites:
   doc: https://cubebrush.co/blog/cubebrush-now-accepts-bitcoin
   keywords:
   - coinbase
+- name: Dope! Gallery
+  url: https://dope.gallery
+  img: DopeGallery.png
+  bch: true
+  btc: true
+  othercrypto: false
+  facebook: letartbeyourdope
+  email_address: info@dope.gallery
+  region: as
 - name: Greyman Design
   url: http://greymandesign.com/
   img: greymandesign.png
@@ -105,12 +114,3 @@ websites:
   keywords:
   - bitpay
   - bip70
-- name: Dope! Gallery
-  url: https://dope.gallery
-  img: DopeGallery.png
-  bch: Yes
-  btc: Yes
-  othercrypto: No
-  facebook: letartbeyourdope
-  email_address: info@dope.gallery
-  region: as
