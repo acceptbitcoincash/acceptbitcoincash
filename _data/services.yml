@@ -411,5 +411,3 @@ websites:
   btc: Yes
   othercrypto: Yes
   email_address: support@necroiptv.com
-  exceptions: 
-    text: "Select "Bitcoin / Cryptocurrency" during checkout. "
