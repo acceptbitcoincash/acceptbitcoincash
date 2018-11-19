@@ -625,3 +625,12 @@ websites:
   doc: https://coinatmradar.com/manufacturer/93/dobi-atm-bitcoin-atm-producer/
   exceptions: 
     text: "yes. Users have cash or bank card through Bitcoin ATM to use Bitcoin Cash"
+- name: The Hygiology Post
+  url: https://hygiologypost.com/
+  img: TheHygiologyPost.png 
+  bch: Yes
+  btc: Yes
+  othercrypto: Yes
+  region: na
+  exceptions: 
+    text: "This method seems most direct and cost efficient. E Mail cryptocurrency@hygiologypost.com and identify what you purchased, the full address to where you physically want it sent (unless a Webstore product), and what cryptocurrency payment in full amt. was sent to the public cryptocurrency address below (please also account for any transaction fees charged). A coupon code for Webstore listings will be sent upon receipt of payment in full (can use conversion calculator from link below). Thank You! "
