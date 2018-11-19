@@ -72,7 +72,7 @@ websites:
   keywords:
   - bitpay
   - bip70
-- name: disRupt Ávila
+- name: disRupt ?vila
   url: http://disruptavila.com
   img: disruptavila.png
   twitter: disruptavila
@@ -80,7 +80,7 @@ websites:
   email_address: info@disruptavila.com
   region: eu
   country: ES
-  city: Ávila
+  city: ?vila
   bch: true
   btc: true
   othercrypto: true
@@ -404,3 +404,9 @@ websites:
   btc: true
   othercrypto: false
   doc: https://twitter.com/wiseowlsoo/status/988781341541101568
+- name: Beams TV
+  url: http://beams-tv.me/
+  img: BeamsTV.png 
+  bch: Yes
+  btc: Yes
+  othercrypto: Yes
