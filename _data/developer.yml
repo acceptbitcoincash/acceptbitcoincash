@@ -491,16 +491,6 @@ websites:
   bch: false
   twitter: zapier
   facebook: ZapierApp
-- name: starcertification
-  url: https://www.starcertification.org/
-  img: starcertification.png
-  bch: No
-  btc: No
-  othercrypto: Yes
-  email_address: starcertificationus@gmail.com
-  country: US
-  state: CA
-  city: Glendale
 - name: Modoboa
   url: https://modoboa.org/en/
   img: Modoboa.png
