@@ -118,13 +118,13 @@ websites:
   twitter: CarilionClinic
   facebook: carilionclinic
   email_address: direct@carilionclinic.org
-- name: Christers H?rv?rd
+- name: Christers Hårvård
   url: http://www.christersharvard.se/
   facebook: christersharvard
   img: christersharvard.png
   region: eu
   country: SE
-  city: G?teborg
+  city: Göteborg
   lang: se
   bch: true
   btc: true
@@ -213,7 +213,7 @@ websites:
   bch: false
   btc: false
   othercrypto: false
-- name: Focused Taiwan ?????
+- name: Focused Taiwan 佛克斯台灣
   url: https://focused.com.tw
   img: focusedTaiwan.png
   twitter: FocusedTaiwan
@@ -488,13 +488,13 @@ websites:
   othercrypto: false
 - name: Wellness Home and Life
   url: https://www.wellnesshomeandlife.com.au
-  img: WellnessHomeandLife.png 
-  bch: Yes
-  btc: Yes
-  othercrypto: Yes
+  img: WellnessHomeandLife.png
+  bch: true
+  btc: true
+  othercrypto: true
   facebook: wellnesshomeandlife
   email_address: info@wellnesshomeandlife.com.au
   region: oc
   country: AU
-  exceptions: 
-    text: "Payment processed via CoinBase Merchant, so select that at checkout"
+  exceptions:
+    text: Payment processed via CoinBase Merchant, so select that at checkout
