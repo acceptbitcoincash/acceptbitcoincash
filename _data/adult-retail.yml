@@ -90,3 +90,14 @@ websites:
   doc: https://www.reddit.com/r/btc/comments/7geqa8/bitcoinsextoys_accepts_bitcoin_cash_find/
   keywords:
   - coinpayments.net
+- name: HoneySexDoll
+  url: https://www.honeysexdoll.com/
+  img: HoneySexDoll.png 
+  bch: Yes
+  btc: No
+  othercrypto: Yes
+  facebook: honeysexdoll
+  email_address: support@honeysexdoll.com
+  doc: https://www.honeysexdoll.com/#1522562237540-b10f8efc-a195
+  exceptions: 
+    text: "It's just as simple as selecting the bitcoin/bitcoin cash/litecoin as payment method at checkout page and proceed."
