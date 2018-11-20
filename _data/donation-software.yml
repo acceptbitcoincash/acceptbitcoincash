@@ -39,7 +39,7 @@ websites:
   facebook: 
   region: eu
   country: AT
-  city: Bad Vöslau
+  city: Bad V?slau
   bch: true
   btc: true
   othercrypto: false
@@ -218,3 +218,11 @@ websites:
   btc: true
   othercrypto: false
   doc: https://winscp.net/donate.php
+- name: sci-hub
+  url: https://sci-hub.tw/
+  img: 
+  twitter: Sci_Hub
+  facebook: sci.hub.org
+  bch: No
+  btc: Yes
+  othercrypto: No
