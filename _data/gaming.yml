@@ -524,3 +524,15 @@ websites:
   othercrypto: true
   keywords:
   - coinify
+- name: OnlineBee.in Short URL
+  url: http://onlinebee.in/
+  img: 
+  twitter: kanokwan24
+  email_address: nok141829@gmail.com
+  region: as
+  city: Thailand
+  bch: Yes
+  btc: Yes
+  othercrypto: Yes
+  exceptions: 
+    text: "Bitcoin"
