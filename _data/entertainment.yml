@@ -25,12 +25,11 @@ websites:
   facebook: Bandcamp
 - name: BCH Videos
   url: https://www.bchvideos.com
-  img: 
+  img: BCHVideos.png
   email_address: microbuxx@gmail.com
-  bch: Yes
-  btc: No
-  othercrypto: No
-  doc: https://www.bchvideos.com
+  bch: true
+  btc: false
+  othercrypto: false
 - name: Big Tickets
   url: https://www.bigtickets.com/
   img: bigtickets.png
