@@ -79,6 +79,17 @@ websites:
   othercrypto: false
   keywords:
   - bitpay
+- name: Alba Tools
+  url: https://www.albatools.uk
+  img: AlbaTools.png 
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: albatoolsuk
+  facebook: albatoolsuk
+  email_address: sales@albatools.uk
+  exceptions: 
+    text: "At checkout under payment method choose 'Bitcoin or other cryptocurrencies' and a list of cryptocurrencies accepted will appear."
 - name: Ali Lightning
   url: http://alilightning.com/
   img: alilightning.png
