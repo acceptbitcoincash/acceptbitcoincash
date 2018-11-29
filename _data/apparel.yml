@@ -784,6 +784,17 @@ websites:
   othercrypto: true
   keywords:
   - coinbase
+- name: TEXGROUPITALIA
+  url: https://www.texgroupitalia.com
+  img: TEXGROUPITALIA.png 
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: texgroupitalia
+  email_address: ordini@texgroupitalia.com
+  region: eu
+  country: IT
+  city: Napoli
 - name: TGT Store
   url: https://www.tightstore.com/
   img: tgtstore.png
