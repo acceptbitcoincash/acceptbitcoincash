@@ -589,6 +589,12 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: X CryptoMarket
+  url: https://xcryptomarket.com
+  img: XCryptoMarket.png 
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Xapo
   url: https://xapo.com
   img: xapo.png
