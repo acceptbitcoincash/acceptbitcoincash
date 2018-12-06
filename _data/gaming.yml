@@ -253,6 +253,13 @@ websites:
   keywords:
   - bitpay
   - bip70
+- name: Keys4Coins
+  url: https://www.keys4coins.com
+  img: keys4coins.png
+  bch: true
+  btc: true
+  othercrypto: true
+  doc: https://www.keys4coins.com/bitcoin-cash-accepted-here/
 - name: Kinguin
   url: https://www.kinguin.net/
   img: kinguin.png
