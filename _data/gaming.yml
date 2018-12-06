@@ -253,11 +253,6 @@ websites:
   keywords:
   - bitpay
   - bip70
-- name: KeyMarket
-  url: https://steamcommunity.com/id/keymarket01
-  img: keymarket.png
-  btc: false
-  bch: true
 - name: Kinguin
   url: https://www.kinguin.net/
   img: kinguin.png
