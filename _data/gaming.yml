@@ -355,7 +355,7 @@ websites:
   doc: https://www.offgamers.com/payment-guide/pg/e-wallet/bitcoin-bitcoin-cash
   keywords:
   - bitpay
-  - bip70
+  - webmoney
 - name: OMGSERV
   url: https://www.omgserv.com
   img: OMGSERV.png
