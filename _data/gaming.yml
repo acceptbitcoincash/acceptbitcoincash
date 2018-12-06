@@ -282,12 +282,14 @@ websites:
   url: https://livecards.eu/
   img: livecards.png
   email_address: support@supportprofessionals.net
-  bch: true
+  bch: false
   btc: true
   othercrypto: false
   keywords:
   - bitpay
   - bip70
+  exceptions:
+    text: LIVECARDS used to accept Bitcoin Cash, but as of 2018-12-06 stopped accepting it
 - name: LucKey Productions
   url: https://luckeyproductions.nl
   img: luckeyproductions.png
