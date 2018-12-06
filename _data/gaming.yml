@@ -535,8 +535,10 @@ websites:
   email_address: info@zap-hosting.com
   twitter: zaphosting
   facebook: zaphosting
-  bch: true
+  bch: false
   btc: true
-  othercrypto: true
+  othercrypto: false
   keywords:
   - coinify
+  exceptions:
+    text: ZAP-Hosting used to accept BCH & Other Cryptos, but as of 2018-12-06 stopped accepting it
