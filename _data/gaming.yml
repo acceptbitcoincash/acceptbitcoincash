@@ -364,16 +364,17 @@ websites:
   bch: true
   btc: true
   othercrypto: false
-- name: Online Key Store
-  url: https://www.onlinekeystore.com/
-  img: onlinekeystore.png
-  twitter: OnlineKeyStore
-  facebook: OnlineKeyStore
+- name: Titancodes
+  url: https://www.titancodes.com/
+  img: titancodes.png
+  twitter: TitanCodes
+  facebook: Titancodes
   bch: true
   btc: true
-  othercrypto: true
+  othercrypto: false
   keywords:
-  - coinpayments.net
+  - bitpay
+  - webmoney
 - name: Origin
   url: https://www.origin.com/
   img: origin.png
