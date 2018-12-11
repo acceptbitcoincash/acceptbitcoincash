@@ -353,13 +353,12 @@ websites:
   doc: https://www.reddit.com/r/btc/comments/8jxwq7/sportsbookcom_now_accepting_bch/
 - name: Stake
   url: https://stake.com/
-  img: stake.png
-  twitter: stake
-  facebook: StakeCasino
+  img: Stake.png
   bch: true
   btc: true
   othercrypto: true
-  doc: https://twitter.com/Stake/status/1044934831870812161
+  twitter: stake
+  facebook: stakecasino
 - name: SwCPoker
   url: https://swcpoker.eu/
   img: swcpoker.png
