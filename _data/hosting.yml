@@ -131,6 +131,14 @@ websites:
   btc: true
   othercrypto: false
   twitter: chunkhost
+- name: Cleverhost
+  url: https://cleverhost.ca
+  img: Cleverhost.png 
+  bch: false
+  btc: true
+  othercrypto: true
+  twitter: cleverhostca
+  facebook: cleverhost
 - name: Cloud9
   url: https://cloud9hosting.com/
   img: cloud9hosting.png
