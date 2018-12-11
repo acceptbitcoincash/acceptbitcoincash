@@ -256,11 +256,13 @@ websites:
   img: billfodl.png
   twitter: Billfodl_Wallet
   facebook: Billfodl
-  bch: true
+  bch: false
   btc: true
   othercrypto: true
   keywords:
-  - coinbase
+  - globee
+  exceptions:
+    text: Billfodl used to accept BCH, but on 2018-11-23 stopped accepting it
 - name: Bit Shopping
   url: https://bitshopping.com.au/
   img: bitshopping.png
