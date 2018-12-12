@@ -256,13 +256,13 @@ websites:
   img: billfodl.png
   twitter: Billfodl_Wallet
   facebook: Billfodl
-  bch: false
+  bch: true
   btc: true
   othercrypto: true
   keywords:
   - globee
   exceptions:
-    text: Billfodl used to accept BCH, but on 2018-11-23 stopped accepting it
+    text: Due to GloBee stopping BCH support Billfodl accepts BCH manually, you need to contact support.
 - name: Bit Shopping
   url: https://bitshopping.com.au/
   img: bitshopping.png
