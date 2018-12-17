@@ -28,6 +28,14 @@ websites:
   othercrypto: true
   keywords:
   - coinpayments.net
+- name: Best Bitcoin Exchange
+  url: https://best-bitcoin-exchange.net/
+  img: BestBitcoinExchange.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: bstbitcoinexchange
+  email_address: bestbitcoinexchange.net@gmail.com
 - name: BestMixer.io
   url: https://bestmixer.io/en
   img: bestmixer.png
@@ -613,9 +621,9 @@ websites:
 - name: DOBI ATM
   url: http://www.dobiatm.com
   img: DOBIATM.png 
-  bch: Yes
-  btc: Yes
-  othercrypto: Yes
+  bch: true
+  btc: true
+  othercrypto: true
   twitter: dobiatm
   email_address: viva@dobitrade.com
   region: na
