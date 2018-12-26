@@ -181,6 +181,16 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Buycrypto
+  url: https://buycrypto.gr/
+  img: Buycrypto.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: buycryptogr
+  region: eu
+  country: GR
+  doc: https://twitter.com/BuycryptoGR/status/1077503094584500224
 - name: BX Thailand
   url: https://bx.in.th/
   img: bxthailand.png
