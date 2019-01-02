@@ -67,7 +67,7 @@ websites:
   bch: true
   btc: true
   othercrypto: true
-- name: BigOnSports.com
+- name: Big On Sports
   url: https://www.bigonsports.com
   img: BigOnSportscom.png
   bch: true
