@@ -67,6 +67,16 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: BigOnSports.com
+  url: https://www.bigonsports.com
+  img: BigOnSportscom.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: bigonsportscom
+  facebook: bigonsports
+  email_address: info@bigonsports.com
+  country: US
 - name: Bitcoin Games
   url: https://games.bitcoin.com/videopoker
   img: bitcoingames.png
