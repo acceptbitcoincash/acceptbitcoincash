@@ -27,6 +27,7 @@ end
 def test_img(img, name, imgs, section)
   # Exception if image file not found
   raise "#{section}: #{name} image not found." unless File.exist?(img)
+
   # Remove img from array unless it doesn't exist (double reference case)
   imgs.delete_at(imgs.index(img)) unless imgs.index(img).nil?
 
@@ -59,8 +60,9 @@ def process_section(section, validator)
   websites = data['websites']
   validate_data(validator, data, section_file, 'name', websites)
 
-  # Check section alphabetization
-  validate_alphabetical(websites, 'name', section_file)
+  # Set section alphabetization
+  data['websites'] = websites.sort_by { |s| s['name'].downcase }
+  File.write(File.join(__dir__, section_file), YAML.dump(data))
 
   # Collect list of all images for section
   imgs = Dir["img/#{section['id']}/*"]
@@ -70,6 +72,7 @@ def process_section(section, validator)
     @total_support += 1 if website['bch'] == true
 
     next if website['img'].nil?
+
     test_img("img/#{section['id']}/#{website['img']}", \
              website['name'], imgs, section_file)
   end
@@ -78,6 +81,7 @@ def process_section(section, validator)
   # for unused or orphaned images
   imgs.each do |img|
     next unless img.nil?
+
     error("#{img} is not used")
   end
 end
@@ -115,6 +119,7 @@ def validate_schema(parser, schema)
   parser.parse_file(File.join(__dir__, schema))
   errors = parser.errors()
   return unless errors && !errors.empty?
+
   errors.each do |e|
     error(e.message.to_s)
   end
@@ -122,6 +127,7 @@ end
 
 def validate_alphabetical(set, identifier, set_name)
   return unless set != (sorted = set.sort_by { |s| s[identifier].downcase })
+
   msg = Diffy::Diff.new(set.to_yaml, sorted.to_yaml, context: 10).to_s(:color)
   error("#{set_name} not ordered by #{identifier}. Correct order:#{msg}")
 end

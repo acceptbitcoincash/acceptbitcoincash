@@ -212,6 +212,27 @@ websites:
   othercrypto: false
   twitter: ISACANews
   facebook: ISACAHQ
+- name: John BE Martins
+  url: https://www.johnbemartins.com
+  img: JohnBEMartins.png
+  bch: true
+  btc: true
+  othercrypto: false
+  twitter: jbemartins
+  facebook: johnmartinsfanpage
+  email_address: disproudegroup@gmail.com
+  doc: https://www.instagram.com/p/BlOyx7_gIXu
+- name: Mises Bookstore
+  url: https://store.mises.org/
+  img: misesbookstore.png
+  twitter: mises
+  facebook: mises.institute
+  bch: true
+  btc: true
+  othercrypto: false
+  keywords:
+  - bitpay
+  - bip70
 - name: Montclair State University
   url: https://www.montclair.edu/employee-services/
   twitter: montclairstateu
@@ -284,6 +305,13 @@ websites:
   bch: false
   btc: false
   othercrypto: false
+- name: schnitzelears German and English classes
+  url: https://schnitzelears.com
+  img: schnitzelearsGermanandEnglishclasses.png
+  bch: true
+  btc: false
+  othercrypto: true
+  email_address: schnitzelears@gmail.com
 - name: SchoolSoft
   url: http://schoolsoft.se/
   img: schoolsoft.png
@@ -291,6 +319,16 @@ websites:
   bch: false
   btc: false
   othercrypto: false
+- name: starcertification
+  url: https://www.starcertification.org/
+  img: starcertification.png
+  bch: false
+  btc: false
+  othercrypto: true
+  email_address: starcertificationus@gmail.com
+  country: US
+  state: CA
+  city: Glendale
 - name: Temple University
   url: https://www.temple.edu/
   img: templeuniversity.png

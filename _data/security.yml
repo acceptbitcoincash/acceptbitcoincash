@@ -36,6 +36,19 @@ websites:
   - coinpayments.net
   - bitpay
   - bip70
+- name: Avira
+  img: avira.png
+  url: https://www.avira.com
+  bch: true
+  btc: true
+  othercrypto: false
+  twitter: avira
+  facebook: avira
+  keywords:
+  - bitpay
+  - bip70
+  exceptions:
+    text: Bitcoin is accepted for Phantom VPN Pro only
 - name: Blur
   url: https://www.abine.com/
   img: blur.png
@@ -246,6 +259,17 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: OVPN Integritet AB
+  url: https://www.ovpn.com
+  img: OVPNIntegritetAB.png
+  bch: true
+  btc: true
+  othercrypto: false
+  twitter: ovpn_official
+  email_address: support@ovpn.com
+  keywords:
+  - bitpay
+  - bip70
 - name: Perfect Privacy VPN
   url: https://www.perfect-privacy.com/
   img: perfectprivacyvpn.png
@@ -307,15 +331,22 @@ websites:
 - name: SaferVPN
   url: https://www.safervpn.com
   img: safervpn.png
-  twitter: SaferVPN
+  twitter: safervpn
   facebook: SaferVPNCom
   bch: true
   btc: true
   othercrypto: true
-  twitter: safervpn
-  facebook: SaferVPNCom
   keywords:
   - coingate
+- name: SecPoint
+  url: https://shop.secpoint.com
+  img: SecPoint.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: secpoint
+  facebook: secpoint
+  email_address: brian@secpoint.com
 - name: ShadeYou
   url: https://shadeyouvpn.com/
   img: shadeyou.png
@@ -373,7 +404,7 @@ websites:
   keywords:
   - coinpayments.net
   exceptions:
-    text: "No refunds for cryptocurrency, only store credit"
+    text: No refunds for cryptocurrency, only store credit
 - name: The Keyois Capsule
   url: https://keyois.com/
   img: keyois.png
@@ -423,9 +454,9 @@ websites:
   url: https://vpn.surf
   img: vpnsurf.png
   email_address: sales@vpn.surf
-  bch: Yes
-  btc: Yes
-  othercrypto: Yes
+  bch: true
+  btc: true
+  othercrypto: true
   keywords:
   - coinpayments
 - name: VPN Unlimited

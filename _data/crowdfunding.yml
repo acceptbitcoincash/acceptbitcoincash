@@ -1,5 +1,12 @@
 ---
 websites:
+- name: Bitbacker.io
+  url: https://bitbacker.io/
+  img: bitbackerio.png
+  twitter: BitBacker_io
+  bch: true
+  btc: true
+  othercrypto: true
 - name: BitFund.cash
   url: http://bitfund.cash/
   img: bitfund.png
@@ -13,7 +20,7 @@ websites:
   btc: false
   othercrypto: false
 - name: Crowd Supply
-  url: https://www.crowdsupply.com
+  url: https://www.crowdsupply.com/
   img: crowdsupply.png
   btc: true
   bch: false
@@ -21,7 +28,8 @@ websites:
   facebook: CrowdSupply
   email_address: support@crowdsupply.com
   exceptions:
-    text: "Alternate forms of payment may incur additional service charges and fees, and they may require pre-payment. To use them, you’ll need to contact orders@crowdsupply.com"
+    text: Alternate forms of payment may incur additional service charges and fees,
+      and they may require pre-payment. To use them, you’ll need to contact orders@crowdsupply.com
 - name: Kickstarter
   url: https://www.kickstarter.com
   img: kickstarter.png
@@ -31,8 +39,9 @@ websites:
 - name: Lighthouse
   url: https://lighthouse.cash/
   img: lighthouse.png
-  bch: true
+  bch: false
   btc: false
+  bsv: true
   othercrypto: false
 - name: Pozible
   url: https://www.pozible.com

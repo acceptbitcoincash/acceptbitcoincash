@@ -49,6 +49,11 @@ websites:
   bch: false
   twitter: basiscodecompli
   facebook: BasisCodeCompliance
+- name: Bchjs
+  url: https://ccoin.cash/
+  bch: true
+  btc: false
+  othercrypto: false
 - name: Bintray
   url: https://bintray.com/
   img: bintray.png
@@ -77,7 +82,8 @@ websites:
   bch: false
   btc: false
   othercrypto: false
-  doc: disabled for now as per https://github.com/bountysource/core/issues/1162
+  exceptions:
+    text: Disabled for now as per https://github.com/bountysource/core/issues/1162
 - name: Bugsnag
   url: https://bugsnag.com
   img: bugsnag.png
@@ -227,11 +233,11 @@ websites:
   twitter: johnpitchers
   facebook: Joomstore
   email_address: john@joomstore.com.au
-  bch: Yes
-  btc: Yes
-  othercrypto: Yes
+  bch: true
+  btc: true
+  othercrypto: true
   exceptions:
-    text: "Payment instructions provided on invoice."
+    text: Payment instructions provided on invoice.
 - name: Koding
   url: https://koding.com
   img: koding.png
@@ -261,6 +267,14 @@ websites:
   twitter: metrological
   bch: false
   email_address: info@metrological.com
+- name: Modoboa
+  url: https://modoboa.org/en/
+  img: Modoboa.png
+  bch: true
+  btc: false
+  othercrypto: false
+  twitter: modoboa_mail
+  doc: https://modoboa.org/en/weblog/2018/01/05/bitcoin-cash-donations/
 - name: MongoDB Cloud Manager
   url: https://cloud.mongodb.com
   img: mongodbmms.png
@@ -438,12 +452,12 @@ websites:
   twitter: underlabs
   email_address: hello@underlabs.ca
   region: na
-  bch: Yes
-  btc: Yes
-  othercrypto: No
+  bch: true
+  btc: true
+  othercrypto: false
   doc: https://underlabs.ca/smart-contracts.html
-  exceptions: 
-   text: "Should to get in touch with them on the terms."
+  exceptions:
+    text: Should to get in touch with them on the terms.
 - name: Unfuddle
   url: https://unfuddle.com/
   img: unfuddle.png

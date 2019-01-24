@@ -1,5 +1,13 @@
 ---
 websites:
+- name: Advanced Cash
+  url: https://advcash.com/
+  img: advancedcash.png
+  facebook: advancedcash
+  twitter: advcash
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Amazon Payments
   url: https://payments.amazon.com
   twitter: AmazonPayments
@@ -32,8 +40,9 @@ websites:
   region: sa
   country: CO
   lang: es
-  bch: true
+  bch: false
   btc: true
+  bsv: true
   othercrypto: false
 - name: BitKassa
   url: https://www.bitkassa.nl/
@@ -100,6 +109,14 @@ websites:
   bch: false
   btc: false
   othercrypto: false
+- name: Coinbase Commerce
+  url: https://commerce.coinbase.com/
+  img: cbcommerce.png
+  twitter: commercecb
+  email_address: commerce@coinbase.com
+  bch: true
+  btc: true
+  othercrypto: true
 - name: CoinGate
   url: https://coingate.com/
   img: coingate.png
@@ -113,9 +130,15 @@ websites:
 - name: Coinify
   url: https://coinify.com
   img: coinify.png
-  bch: true
+  twitter: coinify
+  facebook: coinify
+  bch: false
+  bsv: true
   btc: true
   othercrypto: true
+  doc: https://help.coinify.com/article/108-list-of-supported-blockchain-currencies
+  exceptions:
+    text: Coinify used to accept BCH, but as of 2019-01-22 stopped accepting it
 - name: Coinpay
   url: https://coinpay.in.th/
   img: coinpay.png
@@ -133,6 +156,15 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Cointopay International B.V.
+  url: https://cointopay.com
+  img: cointopay.png
+  twitter: cointopay
+  email_address: info@cointopay.com
+  bch: true
+  btc: true
+  othercrypto: true
+  doc: https://cointopay.com/B_Detail.jsp?ID=61
 - name: CoinWISE
   url: https://coinwise.io
   img: coinwise.png
@@ -141,18 +173,18 @@ websites:
   email_address: coinwise@coinwise.br
   region: sa
   country: BR
-  bch: Yes
-  btc: Yes
-  othercrypto: Yes
+  bch: true
+  btc: true
+  othercrypto: true
 - name: CopPay
   url: https://coppay.io/
   img: coppay.png
   twitter: CopPay_io
   facebook: CopPay
-  bch: false
+  bch: true
   btc: true
   othercrypto: true
-  status: https://twitter.com/CopPay_io/status/1020372956151676935
+  doc: https://medium.com/@CopPay/coppay-implements-bitcoin-cash-bch-495fc20d8595
 - name: CryptAPI
   url: https://cryptapi.io
   img: cryptapi.png
@@ -168,6 +200,14 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: CryptoPay
+  url: https://cryptopay.me
+  img: CryptoPay.png
+  bch: false
+  btc: true
+  othercrypto: true
+  twitter: cryptopay
+  facebook: cryptopayme
 - name: Dwolla
   url: https://www.dwolla.com
   img: dwolla.png
@@ -183,9 +223,11 @@ websites:
   url: https://globee.com/
   img: globee.png
   twitter: GlobeeCom
-  bch: true
+  bch: false
   btc: true
   othercrypto: true
+  exceptions:
+    text: GloBee used to accept BCH, but on 2018-11-23 stopped accepting it
 - name: GoCardless
   img: gocardless.png
   url: https://gocardless.com/
@@ -209,6 +251,20 @@ websites:
   twitter: CryptocoinAPI
   img: gourl.png
   bch: true
+  btc: true
+  othercrypto: true
+- name: Interkassa
+  url: https://www.interkassa.com/
+  img: interkassa.png
+  facebook: interkassa
+  email_address: support@interkassa.com
+  bch: false
+  btc: true
+  othercrypto: false
+- name: ioChain
+  url: https://www.iochain.co/
+  img: iochain.png
+  bch: false
   btc: true
   othercrypto: true
 - name: Klarna
@@ -235,16 +291,25 @@ websites:
 - name: moneybutton.com
   url: https://www.moneybutton.com/
   img: moneybutton.png
-  bch: true
+  bch: false
   btc: false
+  bsv: true
   othercrypto: false
-  twitter: YoursOrg
+  twitter: money_button
+- name: Mycelium Gear
+  url: https://gear.mycelium.com/
+  img: myceliumgear.png
+  twitter: MyceliumGear
+  email_address: gear.support@mycelium.com
+  bch: false
+  btc: true
+  othercrypto: false
 - name: NETELLER
   img: neteller.png
   url: https://www.neteller.com/en_us
   twitter: neteller
   facebook: neteller
-  bch: false
+  bch: true
   btc: true
   keywords:
   - bitpay
@@ -253,6 +318,20 @@ websites:
   url: https://www.paybear.io/
   img: paybear.png
   twitter: PayBeario
+  bch: true
+  btc: true
+  othercrypto: true
+- name: Paybis
+  url: https://paybis.com/
+  img: Paybis.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: paybis_com
+  facebook: paybis
+- name: Payeer
+  img: payeer.png
+  url: https://payeer.com/
   bch: true
   btc: true
   othercrypto: true
@@ -301,6 +380,14 @@ websites:
   btc: true
   othercrypto: true
   doc: https://www.reddit.com/r/btc/comments/82p4x6/pyxpub_fast_and_safe_0conf_transactions_for_any/
+- name: Rapidz Pay
+  url: https://www.rapidz.io/
+  img: rapidzpay.png
+  twitter: RapidzPay
+  facebook: Rapidz.io
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Ravelin
   url: https://www.ravelin.com/
   twitter: Ravelinhq
@@ -328,12 +415,9 @@ websites:
   bch: true
   btc: true
   othercrypto: true
-  doc: https://www.paysafe.com/paysafegroup/news/detail/skrill-wallet-users-can-now-instantly-buy-and-sell-cryptocurrencies/
   keywords:
   - bitpay
   - bip70
-  exceptions:
-    text: "Bitcoin Cash / Other Crypto is only available in certain markets. Check the documentation link to see which ones are supported."
 - name: Square
   url: https://squareup.com
   twitter: square
@@ -351,6 +435,14 @@ websites:
   twitter: Stripe
   bch: false
   btc: false
+- name: TransferGo
+  url: https://www.transfergo.com/
+  img: transfergo.png
+  facebook: TransferGo
+  twitter: TransferGo
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Vantiv
   url: https://www.vantiv.com/
   twitter: Vantiv

@@ -8,17 +8,17 @@ websites:
   facebook: Ankama
 - name: Bitcoin Cash Dozer
   url: https://dozer.cash/
-  bch: Yes
-  btc: No
-  othercrypto: No
+  bch: true
+  btc: false
+  othercrypto: false
 - name: Bitcoin Cash Football
   url: https://BitcoinCashFootball.com/
   img: bchfootball.png
   twitter: PeanutManEric
   email_address: Eric@BitcoinCashFootball.com
-  bch: Yes
-  btc: No
-  othercrypto: No
+  bch: true
+  btc: false
+  othercrypto: false
 - name: Black Desert Online
   url: https://www.blackdesertonline.com/
   img: bdo.png
@@ -73,9 +73,13 @@ websites:
 - name: Elder Scrolls Online
   url: https://www.elderscrollsonline.com/
   img: eso.png
-  bch: false
+  bch: true
+  btc: true
+  othercrypto: true
   twitter: TESOnline
   email_address: info@bethsoft.com
+  keywords:
+  - webmoney
 - name: Enjin
   url: https://www.enjin.com/
   img: enjin.png
@@ -88,12 +92,24 @@ websites:
   bch: false
   twitter: EpicGames
   facebook: epicgamesinc
+- name: Eternal Summer Sale
+  url: https://eternalsummersale.com
+  img: EternalSummerSale.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: eternalsale
+  email_address: admin@eternalsummersale.com
 - name: EVE Online
   url: https://www.eveonline.com/
   img: eveonline.png
-  bch: false
+  bch: true
+  btc: true
+  othercrypto: true
   twitter: eveonline
   facebook: eveonline
+  keywords:
+  - webmoney
 - name: FaceIT
   url: https://www.faceit.com
   img: faceit.png
@@ -116,6 +132,8 @@ websites:
   bch: false
   btc: true
   othercrypto: false
+  keywords:
+  - bitbay
 - name: G2G
   url: https://www.g2g.com
   img: g2g.png
@@ -159,11 +177,15 @@ websites:
   twitter: Garenaonline
   facebook: Garenaonline
 - name: GOG.com
-  url: https://www.gog.com
+  url: https://www.gog.com/
   img: gog.png
-  bch: false
+  bch: true
+  btc: true
+  othercrypto: true
   twitter: gogcom
   facebook: gogcom
+  keywords:
+  - webmoney
 - name: GREE
   url: https://product.gree.net/
   img: gree.png
@@ -185,9 +207,15 @@ websites:
 - name: IndieGala
   url: https://www.indiegala.com/
   facebook: IndieGala
-  bch: false
+  bch: true
+  btc: true
+  othercrypto: true
   img: indiegala.png
   twitter: IndieGala
+  doc: http://blog.indiegala.com/index.php/crypto-weekend-sale/
+  keywords:
+  - coinbase
+  - webmoney
 - name: Inkwell Ideas
   url: https://store.inkwellideas.com/
   img: InkwellIdeas.png
@@ -215,11 +243,23 @@ websites:
   bch: false
   twitter: itchio
   facebook: itchiogames
-- name: KeyMarket
-  url: https://steamcommunity.com/id/keymarket01
-  img: keymarket.png
-  btc: false
+- name: JJGames
+  url: https://www.jjgames.com/
+  img: jjgames.png
+  email_address: service@jjgames.com
   bch: true
+  btc: true
+  othercrypto: false
+  keywords:
+  - bitpay
+  - bip70
+- name: Keys4Coins
+  url: https://www.keys4coins.com
+  img: keys4coins.png
+  bch: true
+  btc: true
+  othercrypto: true
+  doc: https://www.keys4coins.com/bitcoin-cash-accepted-here/
 - name: Kinguin
   url: https://www.kinguin.net/
   img: kinguin.png
@@ -228,7 +268,7 @@ websites:
   email_address: helpdesk@kinguin.net
   bch: true
   btc: true
-  othercrypto: false
+  othercrypto: true
   keywords:
   - bitpay
   - bip70
@@ -242,12 +282,15 @@ websites:
   url: https://livecards.eu/
   img: livecards.png
   email_address: support@supportprofessionals.net
-  bch: true
+  bch: false
   btc: true
   othercrypto: false
   keywords:
   - bitpay
   - bip70
+  exceptions:
+    text: LIVECARDS used to accept Bitcoin Cash, but as of 2018-12-06 stopped accepting
+      it
 - name: LucKey Productions
   url: https://luckeyproductions.nl
   img: luckeyproductions.png
@@ -259,11 +302,23 @@ websites:
   img: mmoga.png
   twitter: mmoga_ltd
   facebook: MMOGA
-  region: EU
   bch: true
   btc: true
   othercrypto: true
   doc: https://www.mmoga.com/payment_methods/Bitcoin-and-Altcoins.html
+  keywords:
+  - coingate
+- name: MmoGah.com
+  url: https://www.mmogah.com/
+  img: mmogah.png
+  twitter: mmogah_com
+  facebook: MmoGahGold
+  email_address: mmogah@gmail.com
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - coinbase
 - name: MOGS
   url: https://www.mogs.com/
   img: mogs.png
@@ -303,7 +358,7 @@ websites:
   doc: https://www.offgamers.com/payment-guide/pg/e-wallet/bitcoin-bitcoin-cash
   keywords:
   - bitpay
-  - bip70
+  - webmoney
 - name: OMGSERV
   url: https://www.omgserv.com
   img: OMGSERV.png
@@ -337,6 +392,17 @@ websites:
   btc: true
   othercrypto: false
   doc: https://twitter.com/playasia/status/972079670815612930
+- name: Player's Choice Videogames
+  url: https://www.playerschoicevideogames.com
+  img: PlayersChoiceVideogames.png
+  twitter: playerschoice
+  facebook: PlayersChoice
+  bch: true
+  btc: true
+  othercrypto: false
+  keywords:
+  - bitpay
+  - bip70
 - name: Playstation Network
   url: https://www.playstation.com/
   img: psn.png
@@ -413,6 +479,17 @@ websites:
   bch: false
   twitter: tibia
   facebook: Tibia
+- name: Titancodes
+  url: https://www.titancodes.com/
+  img: titancodes.png
+  twitter: TitanCodes
+  facebook: Titancodes
+  bch: true
+  btc: true
+  othercrypto: false
+  keywords:
+  - bitpay
+  - webmoney
 - name: Trion Worlds
   url: https://www.trionworlds.com/
   img: trionworlds.png
@@ -445,7 +522,8 @@ websites:
   twitter: XboxSupport
   facebook: Xbox
   exceptions:
-    text: "Xbox Live used to accept BTC & BCH, but as of 2018-07-07 stopped accepting it"
+    text: Xbox Live used to accept BTC & BCH, but as of 2018-07-07 stopped accepting
+      it
 - name: YoYo Games
   url: https://www.yoyogames.com/
   img: yoyogames.png
@@ -458,8 +536,12 @@ websites:
   email_address: info@zap-hosting.com
   twitter: zaphosting
   facebook: zaphosting
-  bch: true
+  bch: false
+  bsv: false
   btc: true
-  othercrypto: true
+  othercrypto: false
   keywords:
   - coinify
+  exceptions:
+    text: ZAP-Hosting used to accept BCH & Other Cryptos, but as of 2018-12-06 stopped
+      accepting it

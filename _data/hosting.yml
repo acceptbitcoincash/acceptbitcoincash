@@ -1,5 +1,15 @@
 ---
 websites:
+- name: 1gbits.com
+  url: https://1gbits.com
+  img: 1gbits.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: 1gbits
+  facebook: 1gbits
+  email_address: sales@1gbits.com
+  region: eu
 - name: 34SP.com
   url: https://www.34SP.com
   img: 34sp.png
@@ -7,7 +17,6 @@ websites:
   twitter: 34sp
   email_address: support@34sp.com
   bch: false
-  doc: 
 - name: ABACO Hosting
   url: https://abacohosting.com/
   twitter: abacohosting
@@ -43,6 +52,23 @@ websites:
   bch: false
   twitter: arpnetworks
   facebook: arpnetworks
+- name: Astutium
+  url: https://www.astutium.com/
+  img: astutium.png
+  facebook: Astutium
+  twitter: astutium
+  bch: true
+  btc: true
+  othercrypto: true
+- name: Aulerion
+  url: https://www.aulerion.com/
+  img: aulerion.png
+  twitter: aulerion
+  facebook: aulerion
+  email_address: support@aulerion.com
+  bch: true
+  btc: false
+  othercrypto: true
 - name: BaCloud
   url: https://www.bacloud.com
   twitter: bacloud
@@ -97,6 +123,16 @@ websites:
   email_address: info@cdnsun.com
   twitter: CDNsuncom
   facebook: CDNsun
+- name: Centerserv
+  url: https://www.centerserv.com
+  img: Centerserv.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: centerserv
+  facebook: centerserv
+  keywords:
+  - coingate
 - name: ChunkHost
   url: https://chunkhost.com
   img: chunkhost.png
@@ -104,6 +140,16 @@ websites:
   btc: true
   othercrypto: false
   twitter: chunkhost
+- name: Cleverhost
+  url: https://cleverhost.ca
+  img: Cleverhost.png
+  bch: false
+  btc: true
+  othercrypto: true
+  twitter: cleverhostca
+  facebook: cleverhost
+  keywords:
+  - coinpayments
 - name: Cloud9
   url: https://cloud9hosting.com/
   img: cloud9hosting.png
@@ -177,6 +223,15 @@ websites:
   bch: false
   twitter: cyon
   facebook: cyonhosting
+- name: DataQuest Digital Pty Ltd
+  url: https://dataquestdigital.com.au/
+  img: DataQuestDigitalPtyLtd.png
+  twitter: dq_digital
+  facebook: dq_digital
+  country: AU
+  bch: false
+  btc: false
+  othercrypto: false
 - name: Dreamhost
   url: https://dreamhost.com
   img: dreamhost.png
@@ -252,6 +307,13 @@ websites:
   img: globat.png
   bch: false
   twitter: globat
+- name: GoMach5
+  url: https://www.gomach5.com
+  img: gomach5.png
+  email_address: markh@gomach5.com
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Hawk Host
   url: https://www.hawkhost.com
   img: hawkhost.png
@@ -288,6 +350,18 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Host1.no
+  url: https://host1.no
+  img: host1.png
+  bch: true
+  btc: true
+  othercrypto: false
+  twitter: host1no
+  email_address: support@host1.no
+  doc: https://blog.host1.no/nyheter/you-can-now-pay-with-bitcoins-on-host1-no/
+  keywords:
+  - bitpay
+  - bip70
 - name: Hoster Box
   url: https://hosterbox.com/
   img: Hosterbox.png
@@ -359,6 +433,16 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Instant Dedicated
+  url: https://instantdedicated.com/
+  img: instantdedicated.png
+  twitter: idedicated
+  bch: false
+  btc: true
+  othercrypto: false
+  keywords:
+  - bitpay
+  - bip70
 - name: Internoc24 LLC
   url: https://www.internoc24.host/
   img: internoc24.png
@@ -385,12 +469,25 @@ websites:
   bch: false
   btc: true
   twitter: it_itch
+- name: JustColo
+  url: https://justcolo.com.au/
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Kinsta
   url: https://kinsta.com
   img: kinsta.png
   twitter: kinsta
   facebook: kinstahosting
   bch: false
+- name: Koddos
+  url: https://koddos.net
+  img: Koddos.png
+  bch: false
+  btc: true
+  othercrypto: true
+  twitter: koddoscom
+  facebook: koddoscom
 - name: LCN.com
   url: https://www.lcn.com
   twitter: lcndotcom
@@ -465,6 +562,17 @@ websites:
   img: mittwald.png
   bch: false
   lang: de
+- name: MonoVM
+  url: https://monovm.com/
+  img: monovm.png
+  twitter: monovm
+  facebook: monovm
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - coinpayments.net
+  - webmoney
 - name: Monster Megs
   url: https://www.monstermegs.com/
   img: MonsterMegs.png
@@ -652,7 +760,7 @@ websites:
   othercrypto: true
   doc: https://web.senang.online/support
   exceptions:
-    text: "Link to complete payment at Support page"
+    text: Link to complete payment at Support page
   keywords:
   - coinpayments.net
 - name: Servercow
@@ -782,6 +890,15 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Vero Servers
+  url: https://www.veroservers.com/
+  img: VeroServers.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: veroservers
+  email_address: contact@veroservers.com
+  region: eu
 - name: Versio
   url: https://www.versio.nl
   twitter: versio
@@ -814,6 +931,18 @@ websites:
   othercrypto: false
   exceptions:
     text: Crypto-Payments only for existing customers/non-new accounts
+- name: Web4Africa
+  url: https://web4africa.com
+  img: web4africa.png
+  twitter: web4africa
+  facebook: web4africa
+  region: AF
+  country: ZA
+  city: Johannesburg
+  bch: false
+  btc: true
+  othercrypto: true
+  doc: https://web4africa.com/web-hosting/pay-with-bitcoin/
 - name: WebFaction
   url: https://www.webfaction.com
   twitter: webfaction

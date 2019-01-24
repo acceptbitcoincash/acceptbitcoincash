@@ -7,6 +7,15 @@ websites:
   bch: true
   btc: true
   othercrypto: false
+- name: Abra
+  url: https://www.abra.com/
+  img: abra.png
+  twitter: AbraGlobal
+  facebook: GoAbraGlobal
+  bch: true
+  btc: true
+  othercrypto: true
+  doc: https://www.abra.com/blog/bitcoin-cash-support/
 - name: Alluma
   url: https://www.alluma.io/
   img: alluma.png
@@ -53,6 +62,12 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Bitcoin Vietnam
+  url: https://bitcoinvn.io
+  img: bitcoinvn.png
+  bch: true
+  btc: true
+  othercrypto: false
 - name: Bitcoin.de
   url: https://bitcoin.de
   img: bitcoinde.png
@@ -172,14 +187,6 @@ websites:
   bch: true
   btc: true
   othercrypto: true
-- name: CampBX
-  url: https://campbx.com/
-  img: campbx.png
-  bch: false
-  btc: true
-  othercrypto: true
-  twitter: campbx
-  email_address: Media@CampBX.com
 - name: CEX.IO
   url: https://cex.io/
   img: cex.png
@@ -267,6 +274,14 @@ websites:
   facebook: coinfloor
   twitter: coinfloor
   email_address: support@coinfloor.co.uk
+- name: CoinMate
+  url: https://coinmate.io/
+  img: CoinMate.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: Coinmate
+  doc: https://blog.coinmate.io/currency-pairs-bcheur-and-bchczk-added/
 - name: CoinOne
   url: https://coinone.co.kr/
   img: coinone.png
@@ -276,7 +291,7 @@ websites:
 - name: Coinspot
   url: https://www.coinspot.com.au/
   img: coinspot.png
-  region: af
+  region: oc
   country: AU
   bch: true
   btc: true
@@ -316,6 +331,17 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: FastX
+  url: https://fastx.io
+  img: fastx.png
+  twitter: fastxcrypto
+  facebook: fastxcrypto
+  region: oc
+  country: AU
+  city: Sydney
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Foxbit
   url: https://foxbit.com.br/
   twitter: foxbitcoin
@@ -351,6 +377,12 @@ websites:
   btc: false
   othercrypto: true
   status: https://news.bitcoin.com/adding-bitcoin-cash-and-litecoin-is-main-goal-of-2018-for-gemini-exchange/
+- name: Ginero
+  url: https://ginero.io
+  img: ginero.png
+  bch: true
+  btc: true
+  othercrypto: true
 - name: HitBTC
   url: https://www.hitbtc.com/
   img: hitbtc.png
@@ -454,6 +486,22 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Paybis
+  url: https://paybis.com/
+  img: Paybis.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: paybis_com
+  facebook: paybis
+- name: Payfair
+  url: https://payfair.io/
+  img: payfair.png
+  twitter: payfairio
+  facebook: Payfairio
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Poloniex
   url: https://poloniex.com/
   img: poloniex.png
@@ -505,10 +553,11 @@ websites:
   img: tradingview.png
   twitter: tradingview
   facebook: tradingview
-  bch: false
+  bch: true
   btc: true
-  othercrypto: false
-  doc: https://www.tradingview.com/wiki/FAQ
+  othercrypto: true
+  keywords:
+  - coinbase
 - name: UPbit
   url: https://upbit.com/
   img: upbit.png
