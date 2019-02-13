@@ -102,6 +102,15 @@ websites:
   twitter: Webroot
   facebook: Webroot
   bch: false
+- name: Webroot safe
+  url: http://install-webroot.com/safe/
+  img: Webrootsafe.png
+  bch: false
+  btc: true
+  othercrypto: true
+  email_address: bushrapcexpert@gmail.com
+  country: US
+  city: New York City
 - name: ZoneAlarm
   url: https://www.zonealarm.com/
   img: zonealarm.png
