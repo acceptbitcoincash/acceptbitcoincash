@@ -96,12 +96,16 @@ websites:
   bch: false
   btc: false
   othercrypto: false
-- name: Webroot
-  url: https://www.webroot.com
+- name: webroot
+  url: http://install-webroot.com
   img: webroot.png
-  twitter: Webroot
-  facebook: Webroot
-  bch: false
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: samikshagirdhar.azureink@gmail.com
+  region: na
+  country: US
+  city: Seattle
 - name: ZoneAlarm
   url: https://www.zonealarm.com/
   img: zonealarm.png
