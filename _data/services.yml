@@ -288,6 +288,16 @@ websites:
   othercrypto: true
   exceptions:
     text: Ask for payment in Bitcoin Cash in store or by e-mail.
+- name: lazyfox.io
+  url: https://lazyfox.io
+  img: lazyfoxio.png
+  bch: true
+  btc: false
+  othercrypto: false
+  twitter: iolazyfox
+  doc: https://www.reddit.com/r/btc/comments/b0o8fp/im_launching_lazyfoxio_today_a_bitcoin_cash/
+  exceptions:
+    text: "Just use any wallet to send a reward to the site to create a task which will get listed there."
 - name: Locks Keys and More
   url: https://lockskeysandmore.com
   img: lockskeysmore.png
