@@ -439,6 +439,17 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Savvy
+  url: https://www.savvy.io/merchant
+  img: Savvy.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: getsavvyio
+  facebook: savvyio
+  email_address: mark@savvy.io
+  country: US
+  doc: https://coinjournal.net/crypto-payment-processor-paybear-rebrands-to-savvy/
 - name: Selly.gg
   url: https://selly.gg
   img: sellygg.png
