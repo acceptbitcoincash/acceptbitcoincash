@@ -2080,6 +2080,16 @@ websites:
   bch: false
   twitter: zazzle
   facebook: zazzle
+- name: Zen Magnets
+  url: https://zenmagnets.com
+  img: ZenMagnets.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: zenmagnets
+  facebook: zenmagnets
+  email_address: contact@zenmagnets.com
+  doc: https://zenmagnets.com/relations/#FAQ
 - name: ZimbabweDollars.net
   url: https://zimbabwedollars.net/
   img: zimbabwedollars.png
