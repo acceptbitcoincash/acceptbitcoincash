@@ -125,6 +125,20 @@ websites:
   btc: false
   othercrypto: false
   doc: https://www.eruce.com/bitcoin-cash-supported/
+- name: Freshmint Records
+  url: http://www.freshmintrecords.com
+  img: FreshmintRecords.png
+  bch: true
+  btc: false
+  othercrypto: false
+  twitter: freshmintrecor1
+  email_address: rsenecaljr@gmail.com
+  region: na
+  country: US
+  city: No
+  doc: https://www.reddit.com/r/btc/comments/b72uh6/check_out_my_website_where_im_selling_songs_for/
+  exceptions:
+    text: "Put in TXid to check database"
 - name: Google Play
   url: https://play.google.com
   img: googleplay.png
