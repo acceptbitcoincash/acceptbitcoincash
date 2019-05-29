@@ -299,16 +299,17 @@ websites:
   othercrypto: true
   keywords:
   - coinpayments.net
-- name: NordVPN
-  url: https://www.nordvpn.com
-  img: nordvpn.png
-  bch: false
+- name: nordVPN
+  url: https://nordvpn.com
+  img: nordVPN.png
+  bch: true
   btc: true
   othercrypto: true
   twitter: nordvpn
-  facebook: NordVPN
-  keywords:
-  - coinpayments.net
+  facebook: nordvpn
+  email_address: support@nordvpn.com
+  exceptions:
+    text: "payments through Coinpayment"
 - name: nVpn
   url: https://nvpn.net/
   img: nvpn.png
