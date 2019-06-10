@@ -143,6 +143,12 @@ websites:
   bch: false
   twitter: contextio
   facebook: ContextIO
+- name: Cryptolifestyle - Website Producers
+  url: https://rocketr.net/sellers/cryptolifestyle
+  img: CryptolifestyleWebsiteProducers.png
+  bch: true
+  btc: false
+  othercrypto: false
 - name: Deploybot
   url: https://deploybot.com/
   img: deploybot.png
