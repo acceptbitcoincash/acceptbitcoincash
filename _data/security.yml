@@ -481,6 +481,17 @@ websites:
   - coinpayments.net
   exceptions:
     text: No refunds for cryptocurrency, only store credit
+- name: Surfshark
+  url: https://surfshark.com
+  img: Surfshark.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: surfsharksecure
+  facebook: surfsharkprivacy
+  doc: https://account.surfshark.com/signup
+  exceptions:
+    text: "chose Coinpayments as option. Not sure CoinGate works for BCH"
 - name: The Keyois Capsule
   url: https://keyois.com/
   img: keyois.png
