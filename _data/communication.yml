@@ -112,6 +112,12 @@ websites:
   bch: false
   btc: false
   othercrypto: false
+- name: Jumblo
+  url: https://www.jumblo.com
+  img: Jumblo.png
+  bch: true
+  btc: true
+  othercrypto: false
 - name: MailChimp
   url: https://mailchimp.com/
   img: mailchimp.png
