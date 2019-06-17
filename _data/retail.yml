@@ -416,6 +416,14 @@ websites:
   img: comixology.png
   bch: false
   twitter: comixology
+- name: Cool Components
+  url: https://coolcomponents.co.uk
+  img: CoolComponents.png
+  bch: true
+  btc: true
+  othercrypto: false
+  twitter: coolcomponents
+  facebook: coolcomponents
 - name: Cool Stuff Japan
   url: https://www.coolstuffjapan.com/
   img: coolstuffjapan.png
