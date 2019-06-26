@@ -1,16 +1,5 @@
 ---
 websites:
-- name: AmateurCanada
-  url: http://www.amateurcanada.com/
-  img: amateurcanada.png
-  twitter: amateurcanada
-  facebook: amateurcanada
-  btc: true
-  bch: true
-  othercrypto: false
-  keywords:
-  - bitpay
-  - bip70
 - name: Babes Network
   url: https://www.babesnetwork.com
   img: Babes.png
@@ -270,7 +259,7 @@ websites:
   url: https://xhamster.com
   img: xhamster.png
   twitter: xhamstercom
-  facebook: xhamsterporn
+  facebook: xhamsterxxx
   btc: false
   bch: false
   othercrypto: false

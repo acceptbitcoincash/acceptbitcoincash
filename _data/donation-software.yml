@@ -33,13 +33,6 @@ websites:
   btc: true
   othercrypto: false
   doc: https://www.bitcoinunlimited.info/donate
-- name: cheddr
-  url: https://pos.cheddr.cash/
-  img: cheddr.png
-  bch: true
-  btc: false
-  othercrypto: false
-  doc: https://pos.cheddr.cash/#landingDonate
 - name: Cronnit
   url: https://cronnit.us/
   img: cronnit.png
@@ -76,13 +69,13 @@ websites:
   othercrypto: false
   doc: https://www.emuparadise.me/donatebtc.php
 - name: Flowee the Hub
-  url: http://www.flowee.org/
+  url: https://flowee.org/
   img: floweethehub.png
   twitter: floweethehub
   bch: true
   btc: false
   othercrypto: false
-  doc: http://www.flowee.org/donations/
+  doc: https://flowee.org/donations/
   keywords:
   - moneybutton
 - name: FossHub
@@ -96,7 +89,7 @@ websites:
   url: https://www.gnome.org/
   img: gnome.png
   twitter: gnome
-  facebook: GNOMEDesktop
+  facebook: GNOME
   bch: true
   btc: true
   othercrypto: false

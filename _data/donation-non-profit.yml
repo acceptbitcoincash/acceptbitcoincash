@@ -40,7 +40,7 @@ websites:
     text: Common Crawl used to accept BTC, but as of 2018-05-01 stopped accepting
       it
 - name: Democracy at Work
-  url: https://democracyatwork.info
+  url: https://www.democracyatwork.info/
   img: daw.png
   twitter: democracyatwrk
   facebook: democracyatwrk
@@ -205,14 +205,14 @@ websites:
   othercrypto: true
   doc: https://www.sens.org/donate
 - name: The Bitcoin Cash Fund
-  url: https://www.thebitcoincash.fund/
+  url: https://www.bitcoincash.org/
   img: bitcoincashfund.png
   twitter: BitcoinCashFund
-  facebook: bitcoincashfund
+  facebook: bitcoincashorg
   bch: true
   btc: false
   othercrypto: false
-  doc: https://www.thebitcoincash.fund/donate/
+  doc: https://www.thebitcoincash.fund#about-section
 - name: The Ocean Cleanup
   url: https://www.theoceancleanup.com
   img: theoceancleanup.png

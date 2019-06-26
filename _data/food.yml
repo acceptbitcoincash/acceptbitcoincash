@@ -187,17 +187,6 @@ websites:
   bch: false
   btc: false
   othercrypto: false
-- name: City Lounge
-  url: http://www.ourcitylounge.com/
-  img: cityLounge.png
-  facebook: CityLoungeCudahy
-  email_address: info@ourcitylounge.com
-  region: na
-  country: US
-  city: Cudahy
-  bch: true
-  btc: true
-  othercrypto: true
 - name: Classic Crust Pizza
   url: https://classiccrustpizza.com/
   img: classiccrustpizza.png
@@ -258,13 +247,6 @@ websites:
   img: doordash.png
   bch: false
   twitter: doordash
-- name: Dunkin' Donuts
-  url: https://www.dunkindonuts.com
-  img: dunkin.png
-  twitter: DunkinDonuts
-  bch: false
-  btc: false
-  othercrypto: false
 - name: Figures
   url: https://www.figuresto.com/
   img: figures.png
@@ -278,14 +260,6 @@ websites:
   btc: true
   othercrypto: false
   doc: https://www.reddit.com/r/btc/comments/9hlsio/figures_restaurant_toronto_accepts_bitcoin_cash_i/
-- name: Flavours Place
-  url: https://www.flavoursplace.com/
-  img: FlavoursPlace.png
-  twitter: FlavoursPlace
-  facebook: FlavoursPlace
-  bch: false
-  btc: true
-  othercrypto: false
 - name: Friedel Richter
   url: https://www.friedelrichter.de/
   img: friedelrichter.png
@@ -443,7 +417,7 @@ websites:
   btc: true
   othercrypto: false
 - name: Mason Bar
-  url: http://t.dianping.com/deal/20656559
+  url: https://barmasonrestaurant.ca/
   img: masonbar.png
   region: as
   country: CN
@@ -471,7 +445,7 @@ websites:
   - bitpay
   - bip70
 - name: Morello International
-  url: https://www.morelloint.com
+  url: http://www.morelloint.com/
   img: morelloIntl.png
   email_address: framore@morelloint.com
   bch: true

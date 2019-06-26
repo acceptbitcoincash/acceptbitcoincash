@@ -142,10 +142,9 @@ websites:
   twitter: clockwork_crypt
   facebook: clockworkcrypto
   email_address: admin@clockworkcrypto.com
-  bch: true
-  btc: true
-  othercrypto: true
-  doc: https://clockworkcrypto.com/2018/05/30/soft-launch/
+  bch: false
+  btc: false
+  othercrypto: false
   keywords:
   - coinpayments.net
 - name: CoinSpice Store
@@ -851,7 +850,7 @@ websites:
   bch: true
   btc: true
   othercrypto: false
-  facebook: youphorialove
+  facebook: youphoriafestivalwear
   email_address: youphoriafestivalwear@gmail.com
   doc: https://www.facebook.com/youphorialove/photos/a.372299386611232/580019099172592/?type=3&theater
   keywords:
