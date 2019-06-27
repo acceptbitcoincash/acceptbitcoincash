@@ -10,8 +10,8 @@ websites:
   country: DE
   doc: https://www.aohostels.com/en/services/frequent-guest-advantage/
   keywords:
-    - bitpay
-    - bip70
+  - bitpay
+  - bip70
 - name: Adormo
   url: https://www.adormo.com/
   img: adormo.png
@@ -21,8 +21,8 @@ websites:
   twitter: adormonews
   facebook: Adormo
   keywords:
-    - bitpay
-    - bip70
+  - bitpay
+  - bip70
 - name: Airbnb
   url: https://www.airbnb.com/
   img: airbnb.png
@@ -57,8 +57,8 @@ websites:
   othercrypto: false
   doc: http://esconditetamarindo.com/BitPay.html
   keywords:
-    - bitpay
-    - bip70
+  - bitpay
+  - bip70
 - name: Let's Hyde Resort & Villas
   url: https://letshyde.com
   img: LetsHydeResortVillas.png
@@ -109,9 +109,7 @@ websites:
   othercrypto: true
   doc: https://www.reddit.com/r/btc/comments/88yb6o/crypto_giving_you_sleepless_nights_rather_go_on_a/
   exceptions:
-    text:
-      Bitcoin Cash address will be provided once you've decided on your preferred
-      package.
+    text: Bitcoin Cash address will be provided once you've decided on your preferred package.
 - name: SV Breta
   url: https://breta.weebly.com/
   img: svbreta.png
