@@ -130,12 +130,6 @@ websites:
   othercrypto: true
   keywords:
   - bitcoinpay
-- name: Amazon
-  url: https://www.amazon.com
-  img: amazon.png
-  bch: false
-  twitter: Amazon
-  facebook: Amazon
 - name: Antsle
   url: https://antsle.com/
   img: antsle.png
