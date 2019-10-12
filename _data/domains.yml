@@ -267,6 +267,16 @@ websites:
   bch: false
   email_address: help@support.iwantmyname.com
   twitter: iwantmyname
+- name: Joey Trend
+  url: https://joeytrend.com/2019/10/02/why-i-like-bitcoin-cash/
+  img: JoeyTrend.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: joeytrend
+  email_address: joeytrend@aol.com
+  country: US
+  city: Atlanta
 - name: Joker.com
   url: https://joker.com
   img: joker.png
