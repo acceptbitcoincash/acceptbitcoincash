@@ -455,7 +455,6 @@ websites:
   twitter: registrobr
 - name: ScrybaWEB
   url: https://www.scrybaweb.com/
-  facebook: scrybaweb
   email_address: contact@scrybaweb.com
   img: scrybaweb.png
   bch: true

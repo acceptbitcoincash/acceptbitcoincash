@@ -267,7 +267,6 @@ websites:
 - name: ELIPAY
   url: https://elipay.com/
   img: elipay.png
-  facebook: eligmacom
   bch: true
   btc: true
   othercrypto: true
