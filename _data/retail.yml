@@ -164,7 +164,6 @@ websites:
 - name: Aria PC Technology
   img: ariapctech.png
   url: https://www.aria.co.uk/
-  twitter: aria_technology
   facebook: AriaPCTechnology
   bch: true
   btc: true
@@ -1870,7 +1869,6 @@ websites:
 - name: Super-Savvy's
   url: https://savvys.co.uk
   img: supersavvys.png
-  twitter: savvys16
   bch: true
   btc: true
   othercrypto: true

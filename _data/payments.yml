@@ -267,7 +267,6 @@ websites:
 - name: ELIPAY
   url: https://elipay.com/
   img: elipay.png
-  twitter: eligmacom
   facebook: eligmacom
   bch: true
   btc: true
@@ -452,7 +451,6 @@ websites:
 - name: Rapidz Pay
   url: https://www.rapidz.io/
   img: rapidzpay.png
-  twitter: RapidzPay
   facebook: Rapidz.io
   bch: true
   btc: true

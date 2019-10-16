@@ -80,7 +80,6 @@ websites:
 - name: Bitcoin Superstore
   url: https://bitcoinsuperstore.us
   img: bitcoinSuperstore.png
-  twitter: BitcoinSuperst1
   email_address: customerservice@bitcoinsuperstore.us
   bch: true
   btc: true

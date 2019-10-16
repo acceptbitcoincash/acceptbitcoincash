@@ -513,7 +513,6 @@ websites:
   - bip70
 - name: Runtastic
   url: https://www.runtastic.com/shop
-  twitter: Runtastic
   facebook: runtastic
   img: runtastic.png
   bch: false

@@ -491,7 +491,6 @@ websites:
 - name: Surfshark
   url: https://surfshark.com
   img: surfshark.png
-  twitter: SurfsharkSecure
   facebook: SurfsharkPrivacy
   bch: true
   btc: true
