@@ -451,6 +451,15 @@ websites:
   bch: false
   twitter: RuneScape
   facebook: RuneScape
+- name: Satoshi Keys
+  url: https://www.satoshikeys.com
+  img: SatoshiKeys.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: admin@satoshikeys.com
+  exceptions:
+    text: "No, just checkout with Coinpayments in the checkout screen."
 - name: SCDKey
   url: https://www.scdkey.com/
   img: scdkey.png
