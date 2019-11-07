@@ -187,6 +187,15 @@ websites:
   keywords:
   - bitpay
   - coinbase
+- name: moldavite jewelry
+  url: https://www.gemexi.com/gemstones/jewelry/moldavite
+  img: moldavitejewelry.png
+  bch: false
+  btc: false
+  othercrypto: false
+  email_address: tom.lincoln0001@gmail.com
+  region: eu
+  country: US
 - name: Moldavite Plus
   url: https://www.moldaviteplus.com/
   img: moldaviteplus.png
