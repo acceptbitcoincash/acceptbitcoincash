@@ -160,6 +160,15 @@ websites:
   bch: false
   btc: false
   othercrypto: false
+- name: Free BTC generator software
+  url: https://www.bolosgadgets.com
+  img: FreeBTCgeneratorsoftware.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: sirmichaelsr27@gmail.com
+  country: US
+  city: sirmichaelsr27@gmail.com
 - name: Georgia Institute of Technology
   url: https://www.gatech.edu
   img: gatech.png
