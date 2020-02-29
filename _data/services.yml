@@ -59,6 +59,14 @@ websites:
   bch: true
   btc: false
   othercrypto: true
+- name: Constructiveway
+  url: https://constructiveway.org.uk
+  img: Constructiveway.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: constructiveway
+  email_address: info@constructiveway.org.uk
 - name: Contract for Crypto
   url: https://www.contractforcrypto.com/
   bch: true
@@ -170,6 +178,18 @@ websites:
   country: GB
   keywords:
   - coingate
+- name: Freeje
+  url: https://freeje.com/
+  img: Freeje.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: freeje_com
+  facebook: freeje
+  email_address: eugene.samoladas@gsm-travel.com
+  keywords:
+  - coinpayments.net
+  - webmoney
 - name: Freelance for Coins
   url: https://freelanceforcoins.com/
   img: freelanceforcoi.png
