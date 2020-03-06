@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   s.executables = ["kwalify".freeze]
   s.files = ["bin/kwalify".freeze]
   s.homepage = "http://www.kuwata-lab.com/kwalify/".freeze
-  s.rubygems_version = "3.0.4".freeze
+  s.rubygems_version = "3.1.2".freeze
   s.summary = "a parser, schema validator, and data-binding tool for YAML and JSON.".freeze
 
-  s.installed_by_version = "3.0.4" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.1.2" if s.respond_to? :installed_by_version
 end
