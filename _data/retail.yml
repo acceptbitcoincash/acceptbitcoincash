@@ -410,6 +410,16 @@ websites:
   img: comixology.png
   bch: false
   twitter: comixology
+- name: Comptant.com
+  url: https://www.comptant.com/
+  img: Comptantcom.png
+  bch: true
+  btc: false
+  othercrypto: false
+  email_address: support@comptant.com
+  region: na
+  country: CA
+  city: Montreal
 - name: Cool Components
   url: https://coolcomponents.co.uk
   img: coolcomponents.png
