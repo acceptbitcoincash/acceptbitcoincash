@@ -2051,6 +2051,13 @@ websites:
   othercrypto: true
   keywords:
   - coingate
+- name: WooDyes - Mimosa Hostilis and Acacia Confusa Vendors
+  url: https://www.woodyes.ca
+  img: WooDyesMimosaHostilisandAcaciaConfusaVendors.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: woodyes@protonmail.com
 - name: Zazzle
   url: https://www.zazzle.com
   img: zazzle.png
