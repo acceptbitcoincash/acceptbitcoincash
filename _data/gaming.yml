@@ -522,6 +522,17 @@ websites:
   img: uplay.png
   bch: false
   twitter: uplayubisoft
+- name: War Thunder
+  url: https://warthunder.com/
+  img: warthunder.png
+  twitter: WarThunder
+  facebook: WarThunder
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - xsolla
+  - bitpay
 - name: Wargaming
   url: http://wargaming.net/
   img: wargaming.png
@@ -541,11 +552,10 @@ websites:
   facebook: Xbox
   bch: true
   btc: true
-  othercrypto: false
+  othercrypto: true
   doc: https://support.microsoft.com/help/13942/
   keywords:
   - bitpay
-  - bip70
 - name: YoYo Games
   url: https://www.yoyogames.com/
   img: yoyogames.png
