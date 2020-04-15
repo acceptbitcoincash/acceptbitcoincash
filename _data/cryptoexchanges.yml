@@ -274,6 +274,14 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Buy Bitcoin Live
+  url: https://www.buybitcoinlive.com/
+  img: buybitcoinlive.png
+  twitter: BuyBitcoinLive
+  lang: en
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Cardbit
   url: http://www.cardbit.io
   img: cardbit.png
