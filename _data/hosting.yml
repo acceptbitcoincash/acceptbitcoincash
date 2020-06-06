@@ -290,7 +290,7 @@ websites:
   doc: https://easy.gr/el/payment-methods
   keywords:
   - coinbase
-  exceptions: 
+  exceptions:
     text: "Be aware that Easy.gr may ask for KYC information after accepting payment. This is not a recommended vendor for customers seeking privacy."
 - name: Fastly
   url: https://www.fastly.com
@@ -930,7 +930,8 @@ websites:
   twitter: sonicfast9
   facebook: sonicfastio
   email_address: hello@sonicfast.io
-  region: eu
+  keywords:
+  - bitpay
 - name: Super Byte Hosting
   url: https://www.superbytehosting.com/
   img: superbytehosting.png
