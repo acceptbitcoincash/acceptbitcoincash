@@ -324,6 +324,18 @@ websites:
   country: US
   state: CA
   city: Glendale
+- name: Techtutorials
+  url: https://www.tvisha.com/techtutorials
+  img: Techtutorials.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: tvishat
+  facebook: tvishatechnologies
+  email_address: vrushanjali29.tvisha@gmail.com
+  region: as
+  country: IN
+  city: No
 - name: Temple University
   url: https://www.temple.edu/
   img: templeuniversity.png
