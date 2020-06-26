@@ -29,6 +29,15 @@ websites:
   othercrypto: true
   keywords:
   - coinpayments.net
+- name: Codility
+  url: https://www.codility.com
+  img: Codility.png
+  bch: false
+  btc: false
+  othercrypto: false
+  twitter: codility
+  facebook: codility
+  email_address: hello@codility.com
 - name: Daemon Tools
   url: https://www.daemon-tools.cc/
   img: daemontools.png
