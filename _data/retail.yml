@@ -1582,6 +1582,15 @@ websites:
   bch: false
   twitter: SamsungUS
   facebook: SamsungUS
+- name: Satoshigoods
+  url: https://satoshigoods.com
+  img: Satoshigoods.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: satoshigoodscom
+  facebook: satoshigoods
+  doc: https://satoshigoods.com/en/shipping-and-terms-of-payment
 - name: Scan Computers
   url: https://www.scan.co.uk/
   twitter: scancomputers
