@@ -84,6 +84,12 @@ websites:
   btc: true
   othercrypto: true
   doc: https://www.facebook.com/greymandesign/photos/a.1542343829244355/1541847729293965/?type=3&theater
+- name: jialine
+  url: https://www.jialine.co/
+  img: jialine.png
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Liam Gaughan Music Lessons
   url: https://www.liamgaughan.com
   img: liamgaughan.png
