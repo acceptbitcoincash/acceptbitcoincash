@@ -6,6 +6,16 @@ websites:
   bch: false
   btc: false
   facebook: Ankama
+- name: BCH.games
+  url: https://bch.games
+  img: BCHgames.png
+  bch: true
+  btc: false
+  othercrypto: false
+  twitter: bchdotgames
+  facebook: notcreated
+  email_address: u.zhang@protonmail.ch
+  doc: https://read.cash/@BCH.games/bchgames-is-live-b8ab5587
 - name: Bitcoin Cash Dozer
   url: https://dozer.cash/
   bch: true
