@@ -628,6 +628,16 @@ websites:
   bch: false
   twitter: liquidweb
   facebook: liquidwebinc
+- name: LyraHosting
+  url: https://lyrahosting.com/
+  img: LyraHosting.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: info@lyrahosting.com
+  city: Global
+  exceptions:
+    text: "Absolutely not!"
 - name: Mammoth Networks
   url: https://www.mammoth.net.au/
   img: mammothnetworks.png
