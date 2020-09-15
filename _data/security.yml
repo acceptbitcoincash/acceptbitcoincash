@@ -292,6 +292,14 @@ websites:
   othercrypto: true
   keywords:
   - coinpayments.net
+- name: MyVPN.run - Your personal VPN (PPTP, L2TP, OpenVPN)
+  url: https://myvpn.run
+  img: MyVPNrunYourpersonalVPNPPTPLTPOpenVPN.png
+  bch: true
+  btc: true
+  othercrypto: true
+  region: as
+  country: RU
 - name: NordVPN
   url: https://www.nordvpn.com
   img: nordvpn.png
