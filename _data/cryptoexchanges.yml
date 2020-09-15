@@ -195,6 +195,16 @@ websites:
   othercrypto: true
   twitter: bitlish_com
   facebook: bitlish.english
+- name: bitni.com
+  url: https://bitni.com
+  img: bitnicom.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: bitni7
+  facebook: bitnicom-101820531515965
+  email_address: contact@bitni.com
+  doc: https://bitni.com/page/bitcoin-cash-bch-faq
 - name: bitqist
   url: https://www.bitqist.com
   img: bitqist.png
