@@ -1,5 +1,14 @@
 ---
 websites:
+- name: Bay Area Corporate Counsel
+  url: https://www.bayareacorporatecounsel.com/
+  img: BayAreaCorporateCounsel.png
+  bch: true
+  btc: false
+  othercrypto: true
+  email_address: frank@bayareacorporatecounsel.com
+  region: na
+  country: US
 - name: Cosmolex
   url: https://www.cosmolex.com/
   img: cosmolex.png
