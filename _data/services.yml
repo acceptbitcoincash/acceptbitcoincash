@@ -224,6 +224,17 @@ websites:
   othercrypto: true
   keywords:
   - bitpay
+- name: GovReports
+  url: https://govreports.com.au/
+  img: GovReports.png
+  bch: false
+  btc: false
+  othercrypto: true
+  facebook: govreports
+  email_address: carolinacristine82aus@gmail.com
+  region: na
+  country: AU
+  city: Sydney
 - name: Gutes Leben Ltd
   url: https://guteshome.com/
   img: guteslebenltd.png
