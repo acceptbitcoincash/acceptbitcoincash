@@ -31,6 +31,15 @@ websites:
   bch: false
   btc: false
   othercrypto: false
+- name: Bagyatech
+  url: http://www.bagyatech.com/
+  img: Bagyatech.png
+  bch: false
+  btc: false
+  othercrypto: false
+  region: sa
+  country: US
+  city: Jamaica, NY
 - name: CBT Nuggets
   url: https://www.cbtnuggets.com/
   img: cbtnuggets.png
