@@ -71,6 +71,16 @@ websites:
   email_address: games@bitcoin.com
   bch: true
   btc: true
+- name: BitRoll.io
+  url: https://bitroll.io
+  img: BitRollio.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: bitrollio
+  email_address: bitroll@tutanota.com
+  exceptions:
+    text: "Link your e-Mail in your BitRoll.io Account so you can deposit BCH"
 - name: Bitsler
   url: https://bitsler.com
   img: Bitsler.png
