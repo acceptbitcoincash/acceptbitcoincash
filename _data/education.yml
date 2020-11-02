@@ -193,6 +193,16 @@ websites:
   bch: false
   btc: false
   othercrypto: false
+- name: hindidarshan
+  url: https://www.hindidarshan.com/
+  img: hindidarshan.png
+  bch: true
+  btc: false
+  othercrypto: false
+  email_address: shambhudayalsharma009@gmail.com
+  region: as
+  country: IN
+  city: JAIPUR
 - name: Illinois Institute Of Technology
   url: https://web.iit.edu/
   twitter: illinoistech
