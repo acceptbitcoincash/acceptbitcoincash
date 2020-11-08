@@ -333,6 +333,18 @@ websites:
   bch: false
   twitter: vimeo
   facebook: Vimeo
+- name: Welt TV
+  url: https://welt-tv.ch/
+  img: WeltTV.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: welttv
+  facebook: welttv
+  email_address: support@welt-tv.ch
+  region: eu
+  country: CH
+  doc: https://welt-tv.ch/mit-kryptowaehrungen-bezahlen/
 - name: YouTube
   url: https://www.youtube.com/
   img: youtube.png
