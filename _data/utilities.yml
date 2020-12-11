@@ -154,6 +154,16 @@ websites:
   bch: false
   btc: false
   othercrypto: false
+- name: Freeje
+  url: https://freeje.com/
+  img: Freeje.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: freeje
+  email_address: eugene.samoladas@gsm-travel.com
+  city: No
+  doc: https://freeje.com/news/cryptocurrency-we-working-with
 - name: Frontier
   url: https://frontier.com/
   twitter: AskFrontier
