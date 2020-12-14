@@ -211,6 +211,14 @@ websites:
   othercrypto: true
   keywords:
   - bitpay
+- name: Preciousbitmetals
+  url: https://preciousbitmetals.nl/
+  img: Preciousbitmetals.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: support@preciousbitmetals.nl
+  region: eu
 - name: Provident Metals
   url: https://www.providentmetals.com/
   img: providentmetals.png
