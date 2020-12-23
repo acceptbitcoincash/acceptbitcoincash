@@ -373,6 +373,19 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Hosterlabs
+  url: https://hosterlabs.net
+  img: Hosterlabs.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: hosterlabs
+  email_address: support@hosterlabs.net
+  country: MX
+  city: Mexico City
+  doc: https://hosterlabs.net/panel/announcements/10/Crypto-Maddness.html
+  exceptions:
+    text: "No."
 - name: HostUp
   url: https://hostup.org/
   img: hostup.png
