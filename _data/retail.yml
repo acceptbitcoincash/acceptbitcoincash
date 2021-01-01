@@ -386,6 +386,15 @@ websites:
     text: Minimum order amount for Bitcoin payments is 100€
   keywords:
   - bitpay
+- name: cashisav
+  url: https://www.ebay.co.uk/str/cashisavmediamash
+  img: cashisav.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: cashisav
+  exceptions:
+    text: "Request to Pay With  Cryptocurrency With A Pm After Purchase"
 - name: Center Varčnega Ogrevanja - Gomon Solar
   url: https://www.gomonsolar.com/
   img: CenterVarcnegaOgrevanjaGomonSolar.png
