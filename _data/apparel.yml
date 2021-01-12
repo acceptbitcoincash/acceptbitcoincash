@@ -143,6 +143,16 @@ websites:
   othercrypto: true
   keywords:
   - cryptocurrencycheckout
+- name: Coinspice
+  url: https://store.coinspice.io/
+  img: Coinspice.png
+  bch: true
+  btc: false
+  othercrypto: false
+  facebook: thiscoinspicewebsiteneedstoberemovednotinbusinesslost$15inbchonit.
+  email_address: falconwings24@gmail.com
+  region: na
+  country: US
 - name: CoinSpice Store
   url: https://store.coinspice.io/
   img: coinspicestore.png
