@@ -774,17 +774,14 @@ websites:
   email_address: support@sengicoin.com
   country: CD
   city: Kinshasa
-- name: Stealthex.io
+- name: StealthEX.io
   url: https://stealthex.io/
-  img: stealthexio.png
-  twitter: Stealthex_io
-  facebook: Stealthex.io
-  email_address: pr@stealthex.io
+  img: StealthEXio.png
   bch: true
   btc: true
   othercrypto: true
-  exceptions:
-    text: Funds from users in prohibited jurisdictions will be seized, check terms and conditions.
+  twitter: stealthex_io
+  email_address: support@stealthex.io
 - name: Swapzone
   url: https://swapzone.io/
   img: Swapzone.png
