@@ -712,6 +712,19 @@ websites:
   othercrypto: true
   keywords:
   - coinbase
+- name: White Rose Coffee Roasters
+  url: https://whiterosecoffeeroasters.co.uk/?ref=BCH
+  img: WhiteRoseCoffeeRoasters.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: wrroasters
+  facebook: whiteroseroasters
+  email_address: freshcoffee@whiterosecoffeeroasters.co.uk
+  region: eu
+  country: GB
+  exceptions:
+    text: "Coinbase Commerce at checkout"
 - name: Xpresso
   url: https://www.xpressoutah.com
   img: XpressOutah.png
