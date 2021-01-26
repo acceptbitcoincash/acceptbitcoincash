@@ -334,6 +334,16 @@ websites:
   twitter: Klarna
   facebook: KlarnaUSA
   bch: false
+- name: litepay.ch
+  url: https://litepay.ch
+  img: litepaych.png
+  bch: true
+  btc: false
+  othercrypto: true
+  twitter: litepay_ch
+  email_address: info@litepay.ch
+  exceptions:
+    text: "https://litepay.ch/docs/"
 - name: Menu.cash
   url: https://menu.cash/
   img: menucash.png
