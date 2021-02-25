@@ -150,6 +150,17 @@ websites:
   btc: false
   bch: false
   othercrypto: false
+- name: Powershotz
+  url: https://powershotz.com
+  img: Powershotz.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: powershotzz
+  email_address: alexandra@powershotz.com
+  doc: https://powershotz.com/faqs
+  exceptions:
+    text: "Email alexandra@powershotz.com for Bitcoin Cash invoice"
 - name: SexRoulette
   url: https://telegram.me/SexRouletteBot_bot
   img: sexroulette.png
