@@ -116,6 +116,12 @@ websites:
   bch: false
   btc: false
   othercrypto: false
+- name: Nudify
+  url: https://nudify.icu
+  img: Nudify.png
+  bch: true
+  btc: false
+  othercrypto: false
 - name: Porn Pros
   url: https://pornpros.com/
   img: pornpros.png
