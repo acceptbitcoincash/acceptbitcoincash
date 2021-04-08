@@ -611,6 +611,17 @@ websites:
   othercrypto: false
   twitter: Starbucks
   facebook: Starbucks
+- name: Sub-Station Cafe Rosebery
+  url: https://www.substation.cafe/
+  img: SubStationCafeRosebery.png
+  bch: true
+  btc: false
+  othercrypto: true
+  facebook: substationcafe
+  email_address: galstern2@gmail.com
+  region: oc
+  country: AU
+  city: Sydney
 - name: Sutton Honey
   url: http://suttonhoney.com
   img: SuttonHoney.png
