@@ -41,6 +41,17 @@ websites:
   twitter: bcgamewin
   facebook: bcgamewin
   email_address: qinjian2020@protonmail.com
+- name: BCH.games
+  url: https://bch.games
+  img: BCHgames.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: bchdotgames
+  facebook: none
+  email_address: u.zhang@protonmail.ch
+  city: No
+  doc: https://read.cash/@BCH.games/bchgames-is-live-b8ab5587
 - name: Betchain
   url: https://www.betchain.com/
   img: betchain.png
