@@ -13,10 +13,10 @@ Gem::Specification.new do |s|
   s.email = ["headius@headius.com".freeze, "thedarkone2@gmail.com".freeze]
   s.homepage = "https://github.com/ruby-concurrency/thread_safe".freeze
   s.licenses = ["Apache-2.0".freeze]
-  s.rubygems_version = "3.1.2".freeze
+  s.rubygems_version = "3.2.19".freeze
   s.summary = "Thread-safe collections and utilities for Ruby".freeze
 
-  s.installed_by_version = "3.1.2" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.2.19" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
