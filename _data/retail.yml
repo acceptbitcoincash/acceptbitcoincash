@@ -884,6 +884,17 @@ websites:
   bch: false
   twitter: IKEAUSA
   facebook: IKEAUSA
+- name: iKing.io
+  url: https://iking.io/
+  img: iKingio.png
+  bch: true
+  btc: false
+  othercrypto: true
+  twitter: iking_io
+  facebook: iking.io
+  email_address: info@iking.io
+  region: na
+  country: US
 - name: iMANIA.dk
   url: https://www.imania.dk/
   img: imaniadk.png
