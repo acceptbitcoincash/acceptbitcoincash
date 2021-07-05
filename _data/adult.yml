@@ -37,6 +37,18 @@ websites:
   bch: false
   btc: false
   othercrypto: false
+- name: Daniela
+  url: Http/pornhub
+  img: Daniela.png
+  bch: true
+  btc: true
+  othercrypto: false
+  twitter: yes
+  facebook: danieldeque
+  email_address: dani220305@hotmail.con
+  region: oc
+  country: AF
+  city: Mexico
 - name: Digital Playground
   url: https://www.digitalplayground.com/
   img: DigitalPlayground.png
