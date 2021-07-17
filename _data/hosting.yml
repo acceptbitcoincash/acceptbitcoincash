@@ -384,8 +384,6 @@ websites:
   country: MX
   city: Mexico City
   doc: https://hosterlabs.net/panel/announcements/10/Crypto-Maddness.html
-  exceptions:
-    text: "No."
 - name: HostUp
   url: https://hostup.org/
   img: hostup.png
