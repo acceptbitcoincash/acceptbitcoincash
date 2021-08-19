@@ -92,6 +92,14 @@ websites:
   btc: true
   othercrypto: true
   doc: https://www.redfox.bz/bitcoin.html
+- name: Softwarefritz
+  url: https://softwarefritz.com/
+  img: Softwarefritz.png
+  bch: true
+  btc: false
+  othercrypto: true
+  region: eu
+  country: DE
 - name: WP-GPL
   url: https://wp-gpl.org
   bch: true
