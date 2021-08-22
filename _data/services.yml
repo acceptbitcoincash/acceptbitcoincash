@@ -304,6 +304,13 @@ websites:
   - bitpay
   - coingate
   - webmoney
+- name: keysincaves
+  url: https://keysincaves.com/
+  img: keysincaves.png
+  bch: false
+  btc: true
+  othercrypto: true
+  email_address: support@keysincaves.com
 - name: KNW refrigeration
   url: http://www.knw-refrigeration.co.za
   img: knwRefrigeration.png
