@@ -581,6 +581,18 @@ websites:
   btc: true
   othercrypto: true
   lang: es
+- name: Smile Dental Design
+  url: https://smiledentaldesign.com/
+  img: SmileDentalDesign.png
+  bch: true
+  btc: false
+  othercrypto: false
+  twitter: smiledental_il
+  facebook: smiledentaldesignwheeling
+  email_address: smiledentaldesign@gmail.com
+  region: na
+  country: US
+  city: Wheeling, IL
 - name: STDcheck.com
   url: https://www.stdcheck.com/
   img: stdcheck.png
