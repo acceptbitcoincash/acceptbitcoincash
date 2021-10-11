@@ -197,6 +197,15 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Coinremitter
+  url: https://coinremitter.com/
+  img: Coinremitter.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: coinremitter
+  email_address: support@coinremitter.com
+  doc: https://twitter.com/coinremitter/status/1281834195451404289?s=20
 - name: Cointopay International B.V.
   url: https://cointopay.com
   img: cointopay.png
