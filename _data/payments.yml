@@ -249,6 +249,16 @@ websites:
   othercrypto: true
   twitter: cryptopay
   facebook: cryptopayme
+- name: CryptoWoo
+  url: https://www.cryptowoo.com/
+  img: CryptoWoo.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: cryptowoo
+  facebook: cryptowoo
+  email_address: markh@gomach5.com
+  doc: https://twitter.com/CryptoWoo/status/1450196758789861376
 - name: Donatebutton.cash
   url: https://donatebutton.cash
   img: donatebutton.cash.png
