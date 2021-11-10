@@ -224,6 +224,18 @@ websites:
   othercrypto: true
   keywords:
   - bitpay
+- name: Greenery Financial
+  url: https://greeneryfinancial.com
+  img: GreeneryFinancial.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: x
+  facebook: x
+  email_address: GreeneryFinancial@protonmail.com
+  country: US
+  exceptions:
+    text: "Beyond requesting it for the services provided, no."
 - name: Gutes Leben Ltd
   url: https://guteshome.com/
   img: guteslebenltd.png
