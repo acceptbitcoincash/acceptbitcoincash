@@ -1,5 +1,11 @@
 ---
 websites:
+- name: 1 Bitcon Cash
+  url: https://www.1bitcoincash.com/
+  img: BitconCash.png
+  bch: true
+  btc: false
+  othercrypto: false
 - name: AdoramaPix
   url: https://www.adoramapix.com
   img: adoramapix.png
