@@ -604,6 +604,19 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: eywonline ltd
+  url: https://www.eywonline.co.uk
+  img: eywonlineltd.png
+  bch: true
+  btc: false
+  othercrypto: true
+  facebook: eywonline
+  email_address: eywonline@hotmail.com
+  country: GB
+  city: London
+  doc: https://www.instagram.com/p/CX9vH74MCbn/
+  exceptions:
+    text: "At the monent our website is being rebuilt to except Crypto at check out for now manual crypto payments"
 - name: fancy.com
   url: https://fancy.com
   img: fancy.png
