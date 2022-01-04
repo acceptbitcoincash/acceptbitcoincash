@@ -28,6 +28,13 @@ websites:
   twitter: bitcoincashnode
   bch: true
   btc: false
+- name: Bitcoin Cash Offline Wallet
+  url: https://ba.net/bitcoin-cash-offline-wallet
+  img: BitcoinCashOfflineWallet.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: iphone@ba.net
 - name: Bitcoin Unlimited
   url: https://www.bitcoinunlimited.info/
   img: bitcoinunlimited.png
