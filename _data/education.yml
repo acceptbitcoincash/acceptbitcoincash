@@ -31,6 +31,17 @@ websites:
   bch: false
   btc: false
   othercrypto: false
+- name: Aula Particular de Física e Matemática em Jacarepaguá/Barra e Adjacências
+  url: https://sergio-lima-aulas-particulares.negocio.site/
+  img: AulaParticulardeFsicaeMatemticaemJacarepaguBarraeAdjacncias.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: sergio@sergioflima.pro.br
+  region: sa
+  country: BR
+  city: Rio de Janeiro
+  doc: https://local.google.com/place?id=14870022284822492096&use=posts&lpsid=8986772326483773770
 - name: CBT Nuggets
   url: https://www.cbtnuggets.com/
   img: cbtnuggets.png
