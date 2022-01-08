@@ -1467,6 +1467,16 @@ websites:
   doc: https://powercube.dk/betal-med-bitcoin-spar-10/
   keywords:
   - coinify
+- name: Private Phone Shop
+  url: https://www.privatephoneshop.com
+  img: PrivatePhoneShop.png
+  bch: true
+  btc: false
+  othercrypto: true
+  email_address: contact@privatephoneshop.com
+  region: na
+  country: US
+  doc: https://privatephoneshop.com/faq/#Do_you_accept_cryptocurrency_as_payment
 - name: Pure Water Freedom
   url: https://purewaterfreedom.com/
   img: purewaterfreedom.png
