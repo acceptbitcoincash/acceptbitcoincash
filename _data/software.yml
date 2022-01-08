@@ -92,6 +92,17 @@ websites:
   btc: true
   othercrypto: true
   doc: https://www.redfox.bz/bitcoin.html
+- name: SERPed.net
+  url: https://serped.net
+  img: SERPednet.png
+  bch: true
+  btc: false
+  othercrypto: true
+  twitter: serpedhq
+  facebook: serpedhq
+  email_address: agiche@colinklinkert.com
+  exceptions:
+    text: "Contact Customer Support for more details"
 - name: WP-GPL
   url: https://wp-gpl.org
   bch: true
