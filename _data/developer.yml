@@ -133,6 +133,17 @@ websites:
   bch: false
   twitter: codeanywhere
   facebook: Codeanywhere
+- name: CodeFirst
+  url: https://www.codefirst.co.uk
+  img: CodeFirst.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: code_first
+  facebook: codefirst
+  email_address: contact@codefirst.net
+  region: eu
+  country: GB
 - name: Codeship
   url: https://codeship.com/
   img: codeship.png
