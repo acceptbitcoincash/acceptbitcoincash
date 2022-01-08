@@ -326,6 +326,16 @@ websites:
   othercrypto: true
   keywords:
   - bitpay
+- name: Hill Tree Roastery
+  url: https://hilltreeroastery.com/
+  img: HillTreeRoastery.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: hilltreecoffee
+  facebook: hilltreeroastery
+  email_address: hello@hilltreeroastery.com
+  doc: https://twitter.com/HillTreeCoffee/status/1394396630103822337?s=20
 - name: Himalayan People
   url: https://himalayanpeople.com/
   img: himalayanpeople.png
