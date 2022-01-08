@@ -432,6 +432,14 @@ websites:
   twitter: privacyhq
   img: privacy.png
   bch: false
+- name: prompt.cash
+  url: https://prompt.cash
+  img: promptcash.png
+  bch: true
+  btc: false
+  othercrypto: false
+  twitter: cashprompt
+  doc: https://www.reddit.com/r/Bitcoincash/comments/mpx1hq/promptcash_wordpress_plugin_for_your_store_or/
 - name: pyxpub.io
   url: https://pyxpub.io
   img: pyxpub.png
