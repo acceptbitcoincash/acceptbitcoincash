@@ -1926,6 +1926,16 @@ websites:
   othercrypto: true
   keywords:
   - bitpay
+- name: Trademark Hardware
+  url: www.tmhardware.com
+  img: TrademarkHardware.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: tmhardware
+  email_address: customerservice@tmhardware.com
+  country: US
+  doc: https://twitter.com/tmhardware/status/1402671082084126726
 - name: Trading Shenzen
   url: https://tradingshenzhen.com/
   img: tradingshenzhen.png
