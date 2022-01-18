@@ -66,6 +66,16 @@ websites:
   twitter: dropbobdesigns
   facebook: dropbobdesigns
   email_address: info@dropbob.ca
+- name: fiveonefour
+  url: lamariejane.com
+  img: fiveonefour.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: fiveonefourjpeg@protonmail.com
+  region: na
+  exceptions:
+    text: "One step at a time"
 - name: FRAKTALITY
   url: https://fraktality.com/
   img: fraktality.png
