@@ -31,6 +31,17 @@ websites:
   othercrypto: true
   region: na
   country: US
+- name: Hassan yunusa
+  url: hykasi1@gmail.com
+  img: Hassanyunusa.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: hykasi
+  email_address: therealhykasi1@gmail.com
+  region: af
+  country: NG
+  city: Bauchi
 - name: Hranilnica Lon Bank
   region: eu
   country: si
