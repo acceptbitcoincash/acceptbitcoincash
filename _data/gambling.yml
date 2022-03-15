@@ -205,6 +205,14 @@ websites:
   btc: true
   othercrypto: true
   doc: https://fortunejack.com/bitcoincash-gambling
+- name: Jackpot jill
+  url: www.jackpotjill.com
+  img: Jackpotjill.png
+  bch: true
+  btc: true
+  othercrypto: true
+  region: oc
+  country: AU
 - name: LuckyGames
   url: https://luckygames.io/
   twitter: luckygamesio
