@@ -373,6 +373,18 @@ websites:
   bch: true
   btc: true
   othercrypto: false
+- name: KingoFood
+  url: https://www.kingofood.com/
+  img: KingoFood.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: kingofood
+  facebook: kingofood.official
+  email_address: info@kingofood.com
+  region: eu
+  exceptions:
+    text: "on payment page select "Bitcoin or other cryptocurrencies""
 - name: La Confiturière
   url: https://laconfituriere.com/
   img: LaConfiturire.png
