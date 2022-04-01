@@ -215,6 +215,16 @@ websites:
   img: latam.png
   bch: false
   btc: false
+- name: LatinbitsCargo.com
+  url: latinbitscargo.com
+  img: LatinbitsCargocom.png
+  bch: false
+  btc: true
+  othercrypto: false
+  facebook: latinbitscargo
+  email_address: info@latinbitscargo.com
+  region: na
+  country: CO
 - name: Lufthansa
   url: https://www.lufthansa.com
   twitter: lufthansa
