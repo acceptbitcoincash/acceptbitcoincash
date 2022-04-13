@@ -170,6 +170,13 @@ websites:
   bsv: false
   btc: true
   othercrypto: true
+- name: CryptoCasinos
+  url: https://cryptocasinos.com/
+  img: CryptoCasinos.png
+  bch: true
+  btc: true
+  othercrypto: true
+  region: na
 - name: CryptoThrills
   url: https://www.cryptothrills.io
   img: CryptoThrills.png
