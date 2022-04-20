@@ -1,5 +1,12 @@
 ---
 websites:
+- name: Adult Magazines
+  url: https://adultmagazinespdf.com/
+  img: AdultMagazines.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: admin@adultmagazinespdf.com
 - name: Babes Network
   url: https://www.babesnetwork.com
   img: Babes.png
