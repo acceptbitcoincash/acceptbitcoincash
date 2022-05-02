@@ -1978,6 +1978,19 @@ websites:
   othercrypto: true
   keywords:
   - coinbase
+- name: Underground Cigar Shop
+  url: www.undergroundcigars.com
+  img: UndergroundCigarShop.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: donwiggins
+  email_address: donwigginslaw@yahoo.com
+  region: na
+  country: US
+  city: FORT WORTH
+  exceptions:
+    text: "Just order."
 - name: Universal Auto World
   url: https://universalautoworld.com/
   img: universalautoworld.png
