@@ -1467,6 +1467,13 @@ websites:
   doc: https://powercube.dk/betal-med-bitcoin-spar-10/
   keywords:
   - coinify
+- name: Powershopz
+  url: https://powershopz.com
+  img: Powershopz.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: alexandra@powershopz.com
 - name: Pure Water Freedom
   url: https://purewaterfreedom.com/
   img: purewaterfreedom.png
