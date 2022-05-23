@@ -406,6 +406,13 @@ websites:
   btc: true
   othercrypto: true
   doc: https://uptownaces.eu/banking/deposit-methods
+- name: Wild casino
+  url: https://www.wildcasino.ag/cashier
+  img: Wildcasino.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: brandnewused17@gmail.com
 - name: Win A Day Casino
   url: https://www.winadaycasino.eu/
   img: winadaycasino.png
