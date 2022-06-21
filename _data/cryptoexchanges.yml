@@ -309,6 +309,15 @@ websites:
   btc: true
   othercrypto: true
   doc: https://blog.cex.io/news/bitcoin-cash-deposits-withdrawals-enabled-cex-io-16432
+- name: Changeangel
+  url: https://changeangel.io/
+  img: Changeangel.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: changeangel_io
+  facebook: changeangel.io
+  email_address: divyam@changeangel.io
 - name: ChangeNOW
   url: https://changenow.io/
   img: changenow.png
