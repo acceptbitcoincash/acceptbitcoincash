@@ -322,6 +322,14 @@ websites:
   othercrypto: false
   twitter: HintHealth
   facebook: hinthealth
+- name: Homeopathic Treatment Online
+  url: https://www.facebook.com/homeopathictreatmentonline/
+  img: HomeopathicTreatmentOnline.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: homeopathictreatmentonline
+  email_address: sendmespamnow@pm.me
 - name: iMedDo
   url: http://imeddo.com/
   img: imeddo.png
