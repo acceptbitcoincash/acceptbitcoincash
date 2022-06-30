@@ -373,6 +373,16 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: HostMines.com
+  url: https://www.hostmines.com
+  img: HostMinescom.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: hostmines
+  facebook: hostmines
+  email_address: hostmines.com@gmail.com
+  doc: https://www.hostmines.com/blog/buy-hosting-with-bitcoin/
 - name: HostUp
   url: https://hostup.org/
   img: hostup.png
