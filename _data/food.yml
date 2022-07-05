@@ -611,6 +611,18 @@ websites:
   othercrypto: false
   twitter: Starbucks
   facebook: Starbucks
+- name: Subway Hockenheim
+  url: https://www.google.com/maps/uv?hl=en&pb=!1s0x4797b9d6caeb04eb%3A0x32fc3e4d4f9cb29a!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOwQST1nP84hu6dAFdBYMgdbR--jXfi1xk0AuI_%3Dw213-h160-k-no!5ssubway%20hockenheim%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipOwQST1nP84hu6dAFdBYMgdbR--jXfi1xk0AuI_&sa=X&ved=2ahUKEwjIq_-_3vDpAhVmo4sKHWbeCW0QoiowCnoECBYQBg
+  img: SubwayHockenheim.png
+  bch: true
+  btc: false
+  othercrypto: false
+  email_address: rismansanj@yahoo.de
+  region: eu
+  country: DE
+  city: Hockenheim
+  exceptions:
+    text: "Scanning QR Code from the POS"
 - name: Sutton Honey
   url: http://suttonhoney.com
   img: SuttonHoney.png
