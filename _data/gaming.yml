@@ -39,6 +39,14 @@ websites:
   bch: true
   btc: true
   othercrypto: false
+- name: Buy-clash
+  url: https://buy-clash.com/
+  img: Buyclash.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: buy_clash
+  email_address: support@buy-clash.com
 - name: Chess Tempo
   url: https://chesstempo.com/
   img: chesstempo.png
