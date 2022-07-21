@@ -998,6 +998,15 @@ websites:
   doc: https://www.thcservers.com/bitcoin-hosting
   keywords:
   - coingate
+- name: THCServers
+  url: https://www.thcservers.com/
+  img: THCServers.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: thcservers
+  facebook: thcservers
+  email_address: admin@thcservers.com
 - name: Time4VPS
   url: https://www.time4vps.eu/
   twitter: time4vps
