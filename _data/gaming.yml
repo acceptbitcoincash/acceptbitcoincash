@@ -575,3 +575,13 @@ websites:
   - coinify
   exceptions:
     text: Select 'Pay with Bitcoin' as payment method, you can select which coin to use on Coinify
+- name: Buy-clash
+  url: https://buy-clash.com/
+  img: buyclash.jpg
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: buy_clash
+    keywords:
+  - Buy Clash of Clans account
+  - Clash of Clan accounts for sale
