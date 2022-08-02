@@ -159,6 +159,15 @@ websites:
   bch: true
   btc: false
   othercrypto: false
+- name: Space Fucker
+  url: https://www.spacefucker.com
+  img: SpaceFucker.png
+  bch: true
+  btc: true
+  othercrypto: true
+  doc: https://www.spacefucker.com/threads/credit-card-crypto-donations.359773/
+  exceptions:
+    text: "Need to contact stuff. Prefer Bitcoin Cash as payment for membership due to low fees. As alternative possible to accept other crypto."
 - name: StasyQ
   url: https://www.stasyq.com
   img: stasyq.png
