@@ -488,6 +488,12 @@ websites:
   btc: false
   othercrypto: true
   doc: https://ramonlperez.weebly.com/about.html
+- name: Rinulikes
+  url: https://rinulikes.com/
+  img: Rinulikes.png
+  bch: true
+  btc: true
+  othercrypto: true
 - name: SEO Clerks
   url: https://www.seoclerk.com/
   img: seoclerks.png
