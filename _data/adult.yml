@@ -116,6 +116,13 @@ websites:
   bch: false
   btc: false
   othercrypto: false
+- name: nudes.cash
+  url: https://nudes.cash
+  img: nudescash.png
+  bch: true
+  btc: false
+  othercrypto: false
+  twitter: nudesdotcash
 - name: Porn Pros
   url: https://pornpros.com/
   img: pornpros.png
