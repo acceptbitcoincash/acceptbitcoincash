@@ -139,6 +139,20 @@ websites:
   img: db.png
   bch: false
   btc: false
+- name: DS Luxury
+  url: https://dsluxury.com/
+  img: DSLuxury.png
+  bch: true
+  btc: false
+  othercrypto: true
+  twitter: ds_luxury
+  facebook: dsluxury1
+  email_address: info@dsluxury.com
+  region: na
+  country: US
+  city: Chicago
+  exceptions:
+    text: "https://www.dsluxury.com/crypto-coins-luxury-car-rental"
 - name: easyJet
   url: https://www.easyjet.com/en/
   twitter: easyJet
