@@ -110,6 +110,15 @@ websites:
   othercrypto: true
   facebook: miningpoolitalia
   region: eu
+- name: Spreadsheets
+  url: gjohnjok@gmail.com
+  img: Spreadsheets.png
+  bch: true
+  btc: true
+  othercrypto: true
+  region: na
+  country: US
+  city: I think so 
 - name: Suprnova
   url: https://www.suprnova.cc/
   img: suprnova.png
