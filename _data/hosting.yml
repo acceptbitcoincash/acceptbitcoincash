@@ -998,6 +998,14 @@ websites:
   doc: https://www.thcservers.com/bitcoin-hosting
   keywords:
   - coingate
+- name: ThunderVM
+  url: https://thundervm.com
+  img: ThunderVM.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: thundervmcom
+  email_address: thundervm.public@gmail.com
 - name: Time4VPS
   url: https://www.time4vps.eu/
   twitter: time4vps
