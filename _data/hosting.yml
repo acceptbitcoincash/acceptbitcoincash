@@ -1016,6 +1016,18 @@ websites:
   twitter: ukfast
   img: ukfast.png
   bch: false
+- name: Ultahost
+  url: https://ultahost.com/vps-hosting-bitcoin
+  img: Ultahost.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: ultahost
+  facebook: ultahost
+  email_address: elin@ultahost.com
+  doc: https://ultahost.com/payments
+  exceptions:
+    text: "Just buy and you will see the paymnet method using bitcoin"
 - name: Ultraseedbox
   url: https://www.ultraseedbox.com/
   twitter: ultraseedbox
