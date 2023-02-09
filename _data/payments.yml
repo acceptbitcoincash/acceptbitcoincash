@@ -432,6 +432,14 @@ websites:
   twitter: privacyhq
   img: privacy.png
   bch: false
+- name: prompt.cash
+  url: https://prompt.cash
+  img: promptcash.png
+  bch: true
+  btc: false
+  othercrypto: false
+  twitter: cashprompt
+  email_address: georg@prompt.cash
 - name: pyxpub.io
   url: https://pyxpub.io
   img: pyxpub.png
