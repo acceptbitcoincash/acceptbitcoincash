@@ -73,6 +73,14 @@ websites:
   bch: false
   twitter: bitbucket
   facebook: Atlassian
+- name: Bitcoin Cash Standards
+  url: https://bitcoincashstandards.org
+  img: BitcoinCashStandards.png
+  bch: true
+  btc: false
+  othercrypto: false
+  email_address: georg@bchgang.org
+  city: Hofstätten an der Raab
 - name: BitcoinPython
   url: https://bitcoinpython.mercier.link/
   img: bitcoinpython.png
