@@ -262,6 +262,19 @@ websites:
   bch: false
   twitter: slinganswers
   facebook: sling
+- name: SM Plus
+  url: https://smplus.pages.dev/
+  img: SMPlus.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: smplush
+  region: na
+  country: US
+  city: Los Angeles
+  doc: https://bch.gg/smplus
+  exceptions:
+    text: "Scan qr code"
 - name: smashcast
   url: https://www.smashcast.tv/
   img: smashcast.png
