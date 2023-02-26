@@ -81,6 +81,16 @@ websites:
   keywords:
   - bitpay
   - gocoin
+- name: CAD Auto Repair Whitby
+  url: https://cad-automotive-repair.business.site/
+  img: CADAutoRepairWhitby.png
+  bch: false
+  btc: true
+  othercrypto: true
+  email_address: bba@s2angel.com
+  region: na
+  country: CA
+  city: Whitby, Ontario, Canada
 - name: Captain Train
   url: https://www.captaintrain.com
   twitter: captaintrain
