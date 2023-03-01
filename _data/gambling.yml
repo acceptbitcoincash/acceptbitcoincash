@@ -205,6 +205,13 @@ websites:
   btc: true
   othercrypto: true
   doc: https://fortunejack.com/bitcoincash-gambling
+- name: HereBets.com
+  url: https://herebets.com/
+  img: HereBetscom.png
+  bch: true
+  btc: false
+  othercrypto: false
+  email_address: mobtwoeric@gmail.com
 - name: LuckyGames
   url: https://luckygames.io/
   twitter: luckygamesio
