@@ -41,6 +41,18 @@ websites:
   twitter: bcgamewin
   facebook: bcgamewin
   email_address: qinjian2020@protonmail.com
+- name: BCH.games
+  url: https://bch.games
+  img: BCHgames.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: bchdotgames
+  facebook: nofacebook
+  email_address: contact@bch.games
+  doc: https://bchgames.medium.com/how-to-buy-bitcoin-cash-bch-with-paypal-localcryptos-binance-coinbase-credit-card-atm-moonpay-c739430ef907
+  exceptions:
+    text: "Click on Deposit or Withdrawal"
 - name: Betchain
   url: https://www.betchain.com/
   img: betchain.png
