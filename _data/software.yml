@@ -92,6 +92,14 @@ websites:
   btc: true
   othercrypto: true
   doc: https://www.redfox.bz/bitcoin.html
+- name: SweetP Productions
+  url: https://sweetpproductions.com
+  img: SweetPProductions.png
+  bch: false
+  btc: true
+  othercrypto: true
+  twitter: sweetp_pro
+  email_address: support@sweetpproductions.com
 - name: WP-GPL
   url: https://wp-gpl.org
   bch: true
