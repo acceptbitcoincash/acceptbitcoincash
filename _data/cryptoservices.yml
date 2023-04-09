@@ -311,6 +311,17 @@ websites:
   bch: false
   bsv: true
   othercrypto: false
+- name: CryptoJobster
+  url: https://cryptojobster.com
+  img: CryptoJobster.png
+  bch: true
+  btc: false
+  othercrypto: true
+  twitter: cryptojobsterr
+  email_address: henrik@cryptojobster.com
+  doc: https://cryptojobster.com/post-a-job/
+  exceptions:
+    text: "https://cryptojobster.com/post-a-job/"
 - name: Cryptopiece
   url: https://www.cryptopiece.com
   img: cryptopiece.png
