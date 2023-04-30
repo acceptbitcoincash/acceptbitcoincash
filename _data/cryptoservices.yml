@@ -103,6 +103,13 @@ websites:
   btc: true
   othercrypto: true
   doc: https://blog.bitgo.com/bitcoin-cash-bch-update-6dced6c8c53d
+- name: Bitgree
+  url: https://www.bitgree.com
+  img: Bitgree.png
+  bch: true
+  btc: false
+  othercrypto: false
+  email_address: support@bitgree.com
 - name: Bitify
   url: https://bitify.com/
   img: bitify.png
