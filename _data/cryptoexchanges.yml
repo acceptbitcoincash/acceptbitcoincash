@@ -250,6 +250,16 @@ websites:
   othercrypto: true
   exceptions:
     text: Coin availability depends on location.
+- name: BitValve LTD
+  url: https://www.bitvalve.com
+  img: BitValveLTD.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: bitvalve
+  email_address: info@bitvalve.com
+  city: No
+  doc: https://twitter.com/bitvalve/status/1175447845333340160
 - name: Braziliex
   url: https://braziliex.com/
   img: braziliex.png
