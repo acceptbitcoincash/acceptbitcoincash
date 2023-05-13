@@ -205,6 +205,17 @@ websites:
   btc: true
   othercrypto: true
   doc: https://fortunejack.com/bitcoincash-gambling
+- name: Liberty slots
+  url: google.com
+  img: Libertyslots.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: sarahkfield7@outlook.com
+  country: AU
+  city: No
+  exceptions:
+    text: "bitcoincash:qzx6862c0jw6vhztr0rw4nz5xzvl47wvycdhesenxn"
 - name: LuckyGames
   url: https://luckygames.io/
   twitter: luckygamesio
