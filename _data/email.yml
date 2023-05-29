@@ -144,6 +144,17 @@ websites:
   bch: false
   btc: false
   othercrypto: false
+- name: YMOZ
+  url: https://ymoz.com
+  img: YMOZ.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: whymoz
+  email_address: perryt@ymoz.com
+  doc: https://twitter.com/whymoz/status/1663211454072336384
+  exceptions:
+    text: "Select BitPay as the payment processor on checkout."
 - name: Zoho Mail
   url: https://www.zoho.com/mail/
   img: zoho.png
