@@ -256,6 +256,13 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: SixNine.io
+  url: https://sixnine.io
+  img: SixNineio.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: sixnine@sixnine.io
 - name: Sling TV
   url: https://www.sling.com/
   img: sling.png
