@@ -139,6 +139,17 @@ websites:
   img: db.png
   bch: false
   btc: false
+- name: Digitalnomadstan's Tours
+  url: https://tours.digitalnomadstan.online/
+  img: DigitalnomadstansTours.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: petr.kuznetsov@gmail.com
+  region: as
+  country: KG
+  exceptions:
+    text: "any tour presentation page, ex: https://tours.digitalnomadstan.online/trip/altyn-arashan-golden-spring-in-highlands/ left column "сurrencies for ordering a tour online from worldwide""
 - name: easyJet
   url: https://www.easyjet.com/en/
   twitter: easyJet
