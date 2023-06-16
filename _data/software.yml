@@ -67,6 +67,14 @@ websites:
   othercrypto: true
   keywords:
   - coinify
+- name: Nodekeys
+  url: https://nodekeys.com
+  img: Nodekeys.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: nodekeys
+  email_address: support@nodekeys.com
 - name: pcTattletale
   url: https://www.pctattletale.com/
   img: pctattletale.png
