@@ -242,6 +242,17 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Monix.Store
+  url: https://monix.store
+  img: MonixStore.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: hello@monix.store
+  region: eu
+  country: GB
+  exceptions:
+    text: "Payment via cryptocurrency is done manually, by sending an email to the store outlining the product of choice. An exchange rate is agreed upon, the cryptocurrency is sent to the given address and the purchaser receives a 100% off discount code to use in the store at their leisure."
 - name: Mycelium
   url: https://wallet.mycelium.com/
   img: mycelium.png
