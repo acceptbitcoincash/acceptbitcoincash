@@ -69,6 +69,15 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Atomic Networks
+  url: https://atomicnetworks.co/
+  img: AtomicNetworks.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: jacek@atomicnetworks.co
+  exceptions:
+    text: "Select "Cryptocurrency" as the Payment method in checkout."
 - name: BaCloud
   url: https://www.bacloud.com
   twitter: bacloud
