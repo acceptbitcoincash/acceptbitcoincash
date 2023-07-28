@@ -32,6 +32,13 @@ websites:
   othercrypto: true
   keywords:
   - bitpay
+- name: Ahya as-Sunnah
+  url: https://revivesunnah.com
+  img: AhyaasSunnah.png
+  bch: false
+  btc: true
+  othercrypto: false
+  email_address: ibrahim@revivesunnah.com
 - name: Almighty Boost
   url: https://almightyboost.com/
   img: almightyboost.png
