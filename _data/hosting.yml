@@ -483,6 +483,15 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Hostwonders
+  url: https://hostwonders.com
+  img: Hostwonders.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: hostwonders
+  email_address: hostwonders.com@gmail.com
+  doc: https://hostwonders.com/blog/
 - name: Hudson Valley Host
   url: https://www.hudsonvalleyhost.com
   img: HudsonValleyHost.png
