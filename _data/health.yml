@@ -145,6 +145,16 @@ websites:
   email_address: CS@CBD-Oil.Solutions
   region: na
   country: US
+- name: Chiron Scientific
+  url: https://www.ChironScientific.com
+  img: ChironScientific.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: chironscientific
+  email_address: info@ChironScientific.com
+  exceptions:
+    text: "Just select & fill in the appropriate choices from the crypto payments dialog when checking out."
 - name: Christers Hårvård
   url: http://www.christersharvard.se/
   facebook: christersharvard
