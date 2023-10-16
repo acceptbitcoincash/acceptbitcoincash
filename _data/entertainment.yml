@@ -333,6 +333,14 @@ websites:
   bch: false
   twitter: vimeo
   facebook: Vimeo
+- name: Winz.io
+  url: https://winz.io
+  img: Winzio.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: leo@winsgaming.io
+  doc: https://winz.io/payments
 - name: YouTube
   url: https://www.youtube.com/
   img: youtube.png
