@@ -89,6 +89,13 @@ websites:
   othercrypto: true
   keywords:
   - coinpayments
+- name: LoveHUB
+  url: https://www.ubergirls.me
+  img: LoveHUB.png
+  bch: false
+  btc: true
+  othercrypto: true
+  email_address: joe@naughtynetworks.com
 - name: MetArt
   url: https://www.metart.com/
   img: metart.png
