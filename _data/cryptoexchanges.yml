@@ -143,6 +143,16 @@ websites:
   facebook: www.bitcoinvn.io
   email_address: support@bitcoinvn.io
   country: VN
+- name: Bitcoin.com.au
+  url: https://bitcoin.com.au/
+  img: Bitcoincomau.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: bitcoin.com.au
+  email_address: aaron@bitcoin.com.au
+  region: oc
+  country: AU
 - name: Bitcoin.de
   url: https://bitcoin.de
   img: bitcoinde.png
