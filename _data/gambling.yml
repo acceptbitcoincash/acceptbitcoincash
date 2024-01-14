@@ -205,6 +205,14 @@ websites:
   btc: true
   othercrypto: true
   doc: https://fortunejack.com/bitcoincash-gambling
+- name: JennyCasino.com
+  url: https://jennycasino.com/
+  img: JennyCasinocom.png
+  bch: false
+  btc: true
+  othercrypto: true
+  region: eu
+  country: US
 - name: LuckyGames
   url: https://luckygames.io/
   twitter: luckygamesio
