@@ -5,6 +5,13 @@ websites:
   img: cosmolex.png
   bch: false
   twitter: cosmolexlegal
+- name: Crypto Legal
+  url: https://www.cryptolegal.uk
+  img: CryptoLegal.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: info@cryptolegal.uk
 - name: Docusign
   url: https://www.docusign.com
   img: docusign.png
