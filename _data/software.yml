@@ -67,6 +67,17 @@ websites:
   othercrypto: true
   keywords:
   - coinify
+- name: KTHZR
+  url: https://www.ketahazure.com
+  img: KTHZR.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: ketahazure@ketahazure.com
+  country: JP
+  city: Tokyo
+  exceptions:
+    text: "www.ketahazure.com"
 - name: pcTattletale
   url: https://www.pctattletale.com/
   img: pctattletale.png
