@@ -140,6 +140,16 @@ websites:
   bch: false
   twitter: immobilienscout
   facebook: ImmobilienScout24
+- name: Immozentral
+  url: https://www.immozentral.com
+  img: Immozentral.png
+  bch: false
+  btc: false
+  othercrypto: false
+  email_address: info@immozentral.com
+  region: eu
+  country: DE
+  city: no
 - name: Indeed
   url: https://www.indeed.com/
   img: indeed.png
