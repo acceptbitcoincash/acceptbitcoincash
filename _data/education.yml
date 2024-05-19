@@ -300,6 +300,17 @@ websites:
   bch: false
   btc: false
   othercrypto: false
+- name: Savebly
+  url: https://www.savebly.com
+  img: Savebly.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: savebly
+  facebook: savebly
+  email_address: contact@savebly.com
+  region: na
+  country: US
 - name: schnitzelears German and English classes
   url: https://schnitzelears.com
   img: schnitzelearsGermanandEnglishclasses.png
