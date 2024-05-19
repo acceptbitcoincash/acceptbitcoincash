@@ -135,6 +135,14 @@ websites:
   bch: false
   twitter: packethost
   facebook: getpacket
+- name: Private WebHost
+  url: https://privateweb.top/
+  img: PrivateWebHost.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: n/a
+  email_address: privhost@riseup.net
 - name: ProfitBricks
   url: https://www.profitbricks.de
   img: profitbricks.png
