@@ -78,6 +78,13 @@ websites:
   btc: true
   othercrypto: true
   doc: https://www.bacloud.com/en/payment-methods
+- name: BESTBUYRDP
+  url: https://bestbuyrdp.com
+  img: BESTBUYRDP.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: bestbuyrdp@gmail.com
 - name: Binary Lane
   url: https://www.binarylane.com.au/
   img: binarylane.png
