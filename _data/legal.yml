@@ -71,6 +71,17 @@ websites:
   bch: false
   twitter: signnow
   facebook: esignaturesignnow
+- name: SwiftCloud Electronic Signature
+  url: https://swiftcloud.ai/software/electronic-signature
+  img: SwiftCloudElectronicSignature.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: swiftcloud_io
+  facebook: swiftcloud.io
+  doc: https://swiftcloud.ai/crypto
+  exceptions:
+    text: "Contact Sales - accepted on all annual accounts"
 - name: The Crypto Lawyers, LLP
   url: https://thecryptolawyers.com
   img: TheCryptoLawyersLLP.png
