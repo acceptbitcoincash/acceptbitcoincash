@@ -373,6 +373,19 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: HostNOC
+  url: https://hostnoc.com
+  img: HostNOC.png
+  bch: true
+  btc: false
+  othercrypto: false
+  twitter: hostnoc
+  facebook: hostnoc
+  email_address: fahad.urrehman@hostnoc.com
+  region: na
+  country: CA
+  city: Toronto
+  doc: https://hostnoc.com/terms-of-service/
 - name: HostUp
   url: https://hostup.org/
   img: hostup.png
