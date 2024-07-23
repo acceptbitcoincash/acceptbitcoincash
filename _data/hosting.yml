@@ -504,6 +504,15 @@ websites:
   facebook: infomaniaknetwork
   twitter: infomaniak
   bch: false
+- name: Initech
+  url: https://initech.global
+  img: Initech.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: mail@initech.global
+  exceptions:
+    text: "Use Plisio payment gateway option during checkout"
 - name: INIZ
   url: https://iniz.com
   img: iniz.png
