@@ -154,6 +154,16 @@ websites:
       All BTC / BCH Orders Receive a 3% Discount Relative to Credit Card/PayPal Pricing
   keywords:
   - bitpay
+- name: kinorojewelry.com
+  url: https://kinorojewelry.com/
+  img: kinorojewelrycom.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: kinorojewelry
+  email_address: info@kinorojewelry.com
+  region: na
+  country: US
 - name: KJC Gold Silver Bullion
   url: https://www.kjc-gold-silver-bullion.com.au/
   img: KJCGoldSilverBullion.png
