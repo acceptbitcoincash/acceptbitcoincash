@@ -97,6 +97,14 @@ websites:
   bch: false
   twitter: leaseweb
   facebook: leaseweb
+- name: LightNode
+  url: https://www.lightnode.com
+  img: LightNode.png
+  bch: false
+  btc: false
+  othercrypto: false
+  facebook: lightnodevps
+  email_address: tembobao@gmail.com
 - name: Linode
   url: https://www.linode.com/
   img: linode.png
