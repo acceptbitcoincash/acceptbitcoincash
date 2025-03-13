@@ -460,6 +460,14 @@ websites:
   btc: true
   othercrypto: true
   doc: https://www.cryptofacilities.com/cryptocurrency-news/bch-usd-futures/
+- name: CypherGoat
+  url: https://cyphergoat.com
+  img: CypherGoat.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: support@cyphergoat.com
+  doc: https://www.reddit.com/r/Bitcoincash/comments/1ja9cxs/cyphergoat_launch_crypto_exchange_aggregator/
 - name: DSX
   url: https://dsx.uk/
   img: dsx.png
