@@ -382,6 +382,13 @@ websites:
   btc: true
   twitter: ProtonVPN
   facebook: ProtonVPN
+- name: Proxied
+  url: https://proxied.com
+  img: Proxied.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: info@proxied.com
 - name: PureVPN
   url: https://www.purevpn.com
   img: purevpn.png
