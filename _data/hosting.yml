@@ -768,6 +768,13 @@ websites:
   twitter: online_fr
   img: online.png
   bch: false
+- name: OuiHeberg
+  url: https://www.ouiheberg.com/
+  img: OuiHeberg.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: contact@ouiheberg.com
 - name: OVH
   url: https://www.ovh.com/
   img: ovh.png
