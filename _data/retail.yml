@@ -466,6 +466,15 @@ websites:
   exceptions:
     text: This is a drop shipper. The items sold might have a high markup over normal
       prices
+- name: Crypto Luxury Store
+  url: https://crypto-luxury.io/
+  img: CryptoLuxuryStore.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: profile.php?id=61573878705696
+  email_address: support@crypto-luxury.io
+  doc: https://crypto-luxury.io/how-to-shop-with-cryptocurrency-at-crypto-luxury-store/
 - name: Cryptomined
   url: https://cryptomined.com
   img: Cryptomined.png
