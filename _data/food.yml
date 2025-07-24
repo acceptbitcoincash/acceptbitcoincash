@@ -245,6 +245,18 @@ websites:
   bch: true
   btc: false
   othercrypto: false
+- name: Delistepeque Coffee
+  url: https://delistepeque.kyte.site
+  img: DelistepequeCoffee.png
+  bch: true
+  btc: true
+  othercrypto: false
+  facebook: share/1r4tiuqxi5
+  email_address: manager@delistepeque.coffee
+  region: na
+  country: SV
+  city: Santiago Nonualco 
+  doc: https://www.facebook.com/share/r/1BgGnm2PVf/
 - name: DoorDash
   url: https://www.doordash.com
   img: doordash.png
