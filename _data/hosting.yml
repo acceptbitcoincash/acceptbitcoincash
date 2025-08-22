@@ -373,6 +373,14 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Hosting International
+  url: https://hosting.international/
+  img: HostingInternational.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: profile.php?id=61555009447697
+  email_address: marketing@hosting.international
 - name: HostUp
   url: https://hostup.org/
   img: hostup.png
