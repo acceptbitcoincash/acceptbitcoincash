@@ -344,6 +344,12 @@ websites:
   bch: true
   btc: true
   othercrypto: false
+- name: The Kiprojects
+  url: thekiprojects.com
+  img: TheKiprojects.png
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Udacity
   url: https://www.udacity.com/
   twitter: udacity
