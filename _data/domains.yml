@@ -35,6 +35,12 @@ websites:
   email_address: expert-help@above.com
   twitter: above_domain
   facebook: above.domain
+- name: AnotldCC
+  url: https://anotld.cc/
+  img: AnotldCC.png
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Bitdomain.BIZ
   url: http://www3.bitdomain.biz/
   img: bitdomain.png
