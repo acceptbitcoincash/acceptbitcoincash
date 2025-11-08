@@ -987,6 +987,18 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Tannu
+  url: https://lunarvps.com
+  img: Tannu.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: lunarvps
+  email_address: tannudhami009@gmail.com
+  region: eu
+  country: NL
+  city:  no
+  doc: https://lunarvps.com/offshore-vps-hosting/netherlands-bitcoin-vps.html
 - name: THC Servers
   url: https://www.thcservers.com/
   twitter: THCServers
