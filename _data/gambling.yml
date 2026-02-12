@@ -302,6 +302,16 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Rakebit.com
+  url: https://rakebit.com/
+  img: Rakebitcom.png
+  bch: true
+  btc: false
+  othercrypto: true
+  facebook: rakebit
+  email_address: media@rake-partners.com
+  exceptions:
+    text: "can be found on site"
 - name: Red Stag Casino
   url: https://www.redstagcasino.eu/
   img: redstagcasino.png
