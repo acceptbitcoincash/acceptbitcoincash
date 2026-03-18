@@ -478,6 +478,12 @@ websites:
   twitter: STRATO_AG
   facebook: strato
   lang: de
+- name: tldprivacy.ru
+  url: https://tldprivacy.ru/
+  img: tldprivacyru.png
+  bch: true
+  btc: true
+  othercrypto: true
 - name: UK2
   url: https://www.uk2.net/
   img: uk2.png
