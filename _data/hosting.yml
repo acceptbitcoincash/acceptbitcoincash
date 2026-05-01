@@ -373,6 +373,13 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: HammerVM LTD
+  url: https://hammervm.com
+  img: HammerVMLTD.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: postmaster@hammervm.com
 - name: HostUp
   url: https://hostup.org/
   img: hostup.png
