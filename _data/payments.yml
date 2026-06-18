@@ -346,6 +346,18 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Mobazha
+  url: https://mobazha.org/
+  img: mobazha.png
+  bch: true
+  btc: true
+  othercrypto: true
+  doc: https://youtu.be/Q8bQWmm3Byw
+  keywords:
+    - commerce
+    - marketplace
+    - escrow
+    - e-commerce
 - name: Mollie
   url: https://www.mollie.com/
   img: mollie.png
